@@ -113,17 +113,56 @@ def parse_nycu_bme(list_url):
     return items
 
 
-def parse_nthu_bmes(list_url):
-    """清大醫環系：列表沒有日期，用文章編號（越大越新）排序。"""
+def parse_rpage(list_url):
+    """Rpage 系統（清大醫環、中山醫科、中正資工）：日期在 <i class="mdate">，
+    清大的列表沒有日期，所以同時記下文章編號（越大越新）當作排序依據。"""
     soup = get_soup(list_url)
     items = []
     for a in soup.select("div.d-item .mtitle a"):
-        m = re.search(r"/p/40\d-1360-(\d+)", a["href"])
+        mtitle = a.find_parent(class_="mtitle")
+        mdate = mtitle.select_one(".mdate") if mtitle else None
+        m = re.search(r"(\d{4})-(\d{1,2})-(\d{1,2})", mdate.get_text()) if mdate else None
+        num = re.search(r"/p/4\d\d-\d+-(\d+)", a["href"])
         items.append({
             "title": clean(a.get_text()),
             "url": urljoin(list_url, a["href"]),
-            "date": None,
-            "_order": int(m.group(1)) if m else 0,
+            "date": f"{int(m[1]):04d}-{int(m[2]):02d}-{int(m[3]):02d}" if m else None,
+            "_order": int(num.group(1)) if num else 0,
+        })
+    return items
+
+
+def parse_nycu_ece(list_url):
+    """交大電機學院：清單表格，日期在「公布日期」欄，格式 2026-10-20。"""
+    soup = get_soup(list_url)
+    items = []
+    for li in soup.select("li.list_date"):
+        a = li.select_one("a[href*='Details.aspx']")
+        date = li.select_one("span[data-th*='公布日期']")
+        m = re.search(r"(\d{4})-(\d{1,2})-(\d{1,2})", date.get_text()) if date else None
+        if not a:
+            continue
+        items.append({
+            "title": clean(a.get("title") or a.get_text()),
+            "url": urljoin(list_url, a["href"]),
+            "date": f"{int(m[1]):04d}-{int(m[2]):02d}-{int(m[3]):02d}" if m else None,
+        })
+    return items
+
+
+def parse_nycu_cs(list_url):
+    """交大資工系公告：<article> 內有 <time datetime="2026-08-13 09:25">，置頂項目會排在前面。"""
+    soup = get_soup(list_url)
+    items = []
+    for art in soup.select("article"):
+        a = art.select_one("a[href*='/announcements/detail/']")
+        t = art.select_one("time[datetime]")
+        if not a:
+            continue
+        items.append({
+            "title": clean(a.get_text()),
+            "url": urljoin(list_url, a["href"]),
+            "date": t["datetime"][:10] if t else None,
         })
     return items
 
@@ -178,7 +217,7 @@ SCHOOLS = [
         "dept": "生醫工程與環境科學系（醫環所）",
         "home": "https://bmes.site.nthu.edu.tw/",
         "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
-        "parser": parse_nthu_bmes,
+        "parser": parse_rpage,
     },
     {
         "id": "ncku-imi",
@@ -187,6 +226,38 @@ SCHOOLS = [
         "home": "https://www.imi.ncku.edu.tw/zh-hant/",
         "list": "https://www.imi.ncku.edu.tw/zh-hant/news/",
         "parser": parse_ncku_imi,
+    },
+    {
+        "id": "nsysu-imst",
+        "school": "國立中山大學",
+        "dept": "醫學科技研究所（醫科所）",
+        "home": "https://imst.nsysu.edu.tw/",
+        "list": "https://imst.nsysu.edu.tw/p/403-1333-11-1.php?Lang=zh-tw",
+        "parser": parse_rpage,
+    },
+    {
+        "id": "ccu-csie",
+        "school": "國立中正大學",
+        "dept": "資訊工程學系（資工所）",
+        "home": "https://cs.ccu.edu.tw/",
+        "list": "https://cs.ccu.edu.tw/p/403-1094-547-1.php?Lang=zh-tw",
+        "parser": parse_rpage,
+    },
+    {
+        "id": "nycu-ece",
+        "school": "國立陽明交通大學",
+        "dept": "電機學院",
+        "home": "https://ece.nycu.edu.tw/",
+        "list": "https://ece.nycu.edu.tw/latestevent/index.aspx?Parser=9,3,24",
+        "parser": parse_nycu_ece,
+    },
+    {
+        "id": "nycu-aimc",
+        "school": "國立陽明交通大學",
+        "dept": "人工智慧醫學計算所（資工系研究所公告）",
+        "home": "https://www.cs.nycu.edu.tw/",
+        "list": "https://www.cs.nycu.edu.tw/announcements/graduate",
+        "parser": parse_nycu_cs,
     },
 ]
 

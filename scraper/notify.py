@@ -30,6 +30,10 @@ SHORT = {
     "nycu-bme": "交大醫工所",
     "nthu-bmes": "清大醫環所",
     "ncku-imi": "成大醫資所",
+    "nsysu-imst": "中山醫科所",
+    "ccu-csie": "中正資工所",
+    "nycu-ece": "交大電機學院",
+    "nycu-aimc": "交大人工智慧醫學計算所",
 }
 
 
