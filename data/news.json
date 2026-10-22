@@ -1,0 +1,110 @@
+{
+  "updated_at": "2026-10-22T19:34+08:00",
+  "schools": [
+    {
+      "id": "ntu-bime",
+      "school": "國立臺灣大學",
+      "dept": "生物機電工程學系（生機所）",
+      "home": "https://www.bime.ntu.edu.tw/",
+      "list": "https://www.bime.ntu.edu.tw/News_n_64602_sms_63988.html",
+      "items": [
+        {
+          "title": "【獎學金公告】115學年度上學期研究所獎學金申請公告",
+          "url": "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266643_sms_63991.html",
+          "date": "2026-10-07"
+        },
+        {
+          "title": "【徵才公告】國立臺灣大學生物機電工程學系教師徵才公告",
+          "url": "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64629_state_F5D336F102ACBC68_s_261173_sms_68438.html",
+          "date": "2026-10-06"
+        }
+      ],
+      "fetched_at": "2026-10-22T19:34+08:00",
+      "error": null
+    },
+    {
+      "id": "nycu-ibe",
+      "school": "國立陽明交通大學",
+      "dept": "智慧醫電工程研究所",
+      "home": "https://ibe.nycu.edu.tw/",
+      "list": "https://ibe.nycu.edu.tw/ibe/ch/app/news/list?module=headnews&id=6262",
+      "items": [
+        {
+          "title": "【招生公告】116學年度碩士班甄試(口試)因應颱風影響之應變措施",
+          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c68b3c6a-8856-45e8-b3b7-93af25bbebdf",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "116學年度醫電所碩士班甄試入學初試合格名單及注意事項",
+          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=73e359e1-ebf6-4436-82de-a02f7aa0b4b4",
+          "date": "2026-10-20"
+        }
+      ],
+      "fetched_at": "2026-10-22T19:34+08:00",
+      "error": null
+    },
+    {
+      "id": "nycu-bme",
+      "school": "國立陽明交通大學",
+      "dept": "生物醫學工程學系（醫工所）",
+      "home": "https://nycubme.nycu.edu.tw/",
+      "list": "https://nycubme.nycu.edu.tw/archives/category/uncategorized",
+      "items": [
+        {
+          "title": "116學年度 生物醫學工程學系 碩博班甄試初試合格名單 及 面試時間配置表公告",
+          "url": "https://nycubme.nycu.edu.tw/archives/5135",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "[徵才] 國立陽明交通大學 生物醫學工程學系徵聘專任助理教授(含)以上二名",
+          "url": "https://nycubme.nycu.edu.tw/archives/5128",
+          "date": "2026-09-21"
+        }
+      ],
+      "fetched_at": "2026-10-22T19:34+08:00",
+      "error": null
+    },
+    {
+      "id": "nthu-bmes",
+      "school": "國立清華大學",
+      "dept": "生醫工程與環境科學系（醫環所）",
+      "home": "https://bmes.site.nthu.edu.tw/",
+      "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
+      "items": [
+        {
+          "title": "【寒假營隊】2027清華醫工營 開放報名啦！報名期限｜即日起～115年12月21日止",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316723,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
+          "title": "2026/10/21(三)｜ 歡迎高雄醫學大學醫化系李偉鵬副教授蒞臨演講｜主題：Bridging Chemistry and Medicine： A Great Opportunity AheadBridging Chemistry and Medicine： A Great Opportunity Ahead",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316563,r11.php?Lang=zh-tw",
+          "date": null
+        }
+      ],
+      "fetched_at": "2026-10-22T19:34+08:00",
+      "error": null
+    },
+    {
+      "id": "ncku-imi",
+      "school": "國立成功大學",
+      "dept": "醫學資訊研究所（醫資所）",
+      "home": "https://www.imi.ncku.edu.tw/zh-hant/",
+      "list": "https://www.imi.ncku.edu.tw/zh-hant/news/",
+      "items": [
+        {
+          "title": "(推甄務必填寫)成大資訊系/醫資所/人工智慧學程 116學年度 碩士 推甄考生資料登錄系統",
+          "url": "https://www.imi.ncku.edu.tw/zh-hant/news/387",
+          "date": "2026-09-09"
+        },
+        {
+          "title": "115學年度醫學資訊研究所新生須知",
+          "url": "https://www.imi.ncku.edu.tw/zh-hant/news/386",
+          "date": "2026-09-02"
+        }
+      ],
+      "fetched_at": "2026-10-22T19:34+08:00",
+      "error": null
+    }
+  ]
+}

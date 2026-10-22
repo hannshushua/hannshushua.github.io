@@ -91,6 +91,20 @@
     .timeline li { display: grid; grid-template-columns: 120px 1fr; gap: 16px; margin-bottom: 16px; }
     .timeline .when { color: var(--muted); font-size: 0.95rem; }
 
+    .news-meta { color: var(--muted); font-size: 0.9rem; margin: -12px 0 20px; }
+    .school { padding: 20px 24px; }
+    .school-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+    .school-head h3 { margin: 0; }
+    .school-head .dept { display: block; color: var(--muted); font-size: 0.92rem; font-weight: 400; }
+    .school-head a.more { font-size: 0.9rem; white-space: nowrap; }
+    .news-items { list-style: none; }
+    .news-items li { display: flex; gap: 12px; padding: 10px 0; border-top: 1px dashed var(--border); align-items: baseline; }
+    .news-items .date { flex: 0 0 auto; font-size: 0.85rem; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 84px; }
+    .news-items a { color: var(--text); }
+    .news-items a:hover { color: var(--accent); }
+    .badge-new { font-size: 0.7rem; font-weight: 700; color: #fff; background: #dc2626; padding: 1px 6px; border-radius: 4px; margin-left: 6px; vertical-align: 2px; }
+    .news-error { font-size: 0.85rem; color: #b45309; margin-top: 8px; }
+
     footer { padding: 40px 0; text-align: center; color: var(--muted); font-size: 0.9rem; border-top: 1px solid var(--border); }
 
     @media (max-width: 560px) {
@@ -108,6 +122,7 @@
       <ul>
         <li><a href="#about">關於</a></li>
         <li><a href="#projects">專題</a></li>
+        <li><a href="#apply">申請</a></li>
         <li><a href="#contact">聯絡</a></li>
       </ul>
     </div>
@@ -173,6 +188,12 @@
       </div>
     </section>
 
+    <section id="apply">
+      <h2>申請學校最新消息</h2>
+      <p class="news-meta" id="news-updated">載入中…</p>
+      <div id="news-list"></div>
+    </section>
+
     <section id="contact">
       <h2>聯絡我</h2>
       <p style="color: var(--muted); margin-bottom: 20px;">歡迎在 GitHub 上找到我，或討論任何有趣的合作想法！</p>
@@ -188,6 +209,38 @@
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
+
+    // 申請學校最新消息：資料由 GitHub Actions 定期執行 scraper/fetch_news.py 產生
+    (async function loadNews() {
+      const list = document.getElementById("news-list");
+      const meta = document.getElementById("news-updated");
+      const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
+        ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+      const isNew = (d) => d && (Date.now() - new Date(d + "T00:00:00+08:00")) < 7 * 864e5;
+
+      try {
+        const res = await fetch("data/news.json", { cache: "no-store" });
+        if (!res.ok) throw new Error(res.status);
+        const data = await res.json();
+        meta.textContent = "最後更新：" + new Date(data.updated_at).toLocaleString("zh-TW", { hour12: false });
+
+        list.innerHTML = data.schools.map((s) => `
+          <div class="card school">
+            <div class="school-head">
+              <h3>${esc(s.school)}<span class="dept">${esc(s.dept)}</span></h3>
+              <a class="more" href="${esc(s.list)}" target="_blank" rel="noopener">更多消息 →</a>
+            </div>
+            ${s.items.length ? `<ul class="news-items">${s.items.map((it) => `
+              <li>
+                <span class="date">${esc(it.date || "—")}</span>
+                <span><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>${isNew(it.date) ? '<span class="badge-new">NEW</span>' : ""}</span>
+              </li>`).join("")}</ul>` : ""}
+            ${s.error ? `<p class="news-error">⚠ 這次抓取失敗${s.items.length ? "，顯示的是上一次的資料" : ""}，請直接到 <a href="${esc(s.home)}" target="_blank" rel="noopener">官網</a> 查看。</p>` : ""}
+          </div>`).join("");
+      } catch (e) {
+        meta.textContent = "最新消息暫時無法載入。";
+      }
+    })();
   </script>
 </body>
 </html>
