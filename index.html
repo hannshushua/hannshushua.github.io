@@ -73,18 +73,55 @@
     .err { font-size: 0.85rem; color: #b45309; padding: 10px 0; border-top: 1px solid var(--border); }
     .status { color: var(--muted); }
 
+    /* ---------- 切換與篩選 ---------- */
+    .controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 20px; }
+    .seg { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 3px; }
+    .seg button {
+      border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 0.9rem;
+      padding: 6px 14px; border-radius: 7px; cursor: pointer;
+    }
+    .seg button[aria-pressed="true"] { background: var(--text); color: var(--bg); font-weight: 600; }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .chip {
+      border: 1px solid var(--border); background: var(--surface); color: var(--muted);
+      font: inherit; font-size: 0.85rem; padding: 4px 12px; border-radius: 999px; cursor: pointer;
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    .chip .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+    .chip[aria-pressed="true"] { border-color: var(--text); color: var(--text); font-weight: 600; }
+
+    /* ---------- 時間軸 ---------- */
+    .timeline { max-width: 760px; }
+    .tl-group { margin-bottom: 24px; }
+    .tl-group h3 { font-size: 0.95rem; color: var(--muted); font-weight: 600; margin-bottom: 8px; }
+    .tl-item {
+      display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 12px; align-items: baseline;
+      padding: 12px 16px; background: var(--surface); border: 1px solid var(--border);
+      border-left: 4px solid var(--c); border-radius: 10px; margin-bottom: 8px;
+    }
+    .tl-item .who { display: block; font-size: 0.78rem; font-weight: 600; color: var(--c); margin-bottom: 2px; }
+    .tl-item a { color: var(--text); font-size: 0.95rem; overflow-wrap: anywhere; }
+    .tl-item a:hover { color: var(--accent); }
+
     @media (max-width: 820px) {
       .grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 560px) {
       .container { padding-top: 32px; }
-      .school li { grid-template-columns: 1fr; gap: 2px; }
+      .school li, .tl-item { grid-template-columns: 1fr; gap: 2px; }
     }
   </style>
 </head>
 <body>
   <main class="container">
     <h1>學校最新消息</h1>
+    <div class="controls">
+      <div class="seg" role="group" aria-label="檢視方式">
+        <button type="button" data-view="schools" aria-pressed="true">依系所</button>
+        <button type="button" data-view="timeline" aria-pressed="false">依時間</button>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="篩選系所"></div>
+    </div>
     <div id="view" class="status">載入中…</div>
   </main>
 
@@ -98,33 +135,97 @@
       "ncku-imi": "var(--c-ncku)",
     };
 
+    const SHORT = {
+      "ntu-bime": "台大生機",
+      "nycu-ibe": "交大智慧醫電",
+      "nycu-bme": "交大醫工",
+      "nthu-bmes": "清大醫環",
+      "ncku-imi": "成大醫資",
+    };
+    const DAY = 864e5;
+    const state = { data: null, view: "schools", school: "all" };
+
     const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
       ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    const color = (id) => COLORS[id] || "var(--accent)";
+    const visible = () => state.data.schools.filter((s) => state.school === "all" || s.id === state.school);
+
+    function renderSchools() {
+      return `<div class="grid">${visible().map((s) => `
+        <article class="school" style="--c:${color(s.id)}">
+          <div class="school-head">
+            <div>
+              <div class="uni">${esc(s.school)}</div>
+              <h2>${esc(s.dept)}</h2>
+            </div>
+            <a href="${esc(s.list)}" target="_blank" rel="noopener">官網 →</a>
+          </div>
+          <ul>${s.items.map((it) => `
+            <li>
+              <span class="date${it.date ? "" : " none"}">${esc(it.date || "未標日期")}</span>
+              <a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>
+            </li>`).join("")}</ul>
+          ${s.error ? `<p class="err">⚠ 最近一次抓取失敗，請直接到官網查看。</p>` : ""}
+        </article>`).join("")}</div>`;
+    }
+
+    function renderTimeline() {
+      const all = visible().flatMap((s) => s.items.map((it) => ({ ...it, sid: s.id })));
+      const dated = all.filter((it) => it.date).sort((a, b) => b.date.localeCompare(a.date));
+      const undated = all.filter((it) => !it.date);
+
+      const groups = new Map();
+      for (const it of dated) {
+        const age = Date.now() - new Date(it.date + "T00:00:00+08:00").getTime();
+        const key = age < 7 * DAY ? "這週" : age < 30 * DAY ? "這個月" : it.date.slice(0, 7).replace("-", " 年 ") + " 月";
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(it);
+      }
+      if (undated.length) groups.set("未標日期（清大官網列表不提供日期）", undated);
+
+      const row = (it) => `
+        <div class="tl-item" style="--c:${color(it.sid)}">
+          <span class="date${it.date ? "" : " none"}">${esc(it.date || "—")}</span>
+          <span><span class="who">${esc(SHORT[it.sid] || it.sid)}</span><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a></span>
+        </div>`;
+
+      return `<div class="timeline">${[...groups].map(([k, items]) =>
+        `<section class="tl-group"><h3>${esc(k)}</h3>${items.map(row).join("")}</section>`).join("")}</div>`;
+    }
+
+    function render() {
+      const view = document.getElementById("view");
+      view.className = "";
+      view.innerHTML = state.view === "timeline" ? renderTimeline() : renderSchools();
+      document.querySelectorAll(".seg button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.view === state.view));
+      document.querySelectorAll(".chip").forEach((b) => b.setAttribute("aria-pressed", b.dataset.school === state.school));
+    }
+
+    document.addEventListener("click", (e) => {
+      const seg = e.target.closest(".seg button");
+      const chip = e.target.closest(".chip");
+      if (seg) state.view = seg.dataset.view;
+      else if (chip) state.school = chip.dataset.school;
+      else return;
+      try { localStorage.setItem("news-view", state.view); } catch {}
+      render();
+    });
 
     (async () => {
+      try { state.view = localStorage.getItem("news-view") || state.view; } catch {}
+      if (location.hash === "#timeline") state.view = "timeline";  // 可直接用 /#timeline 開啟依時間檢視
       const view = document.getElementById("view");
       try {
         const res = await fetch("data/news.json", { cache: "no-store" });
         if (!res.ok) throw new Error(res.status);
-        const data = await res.json();
-        view.className = "grid";
-        view.innerHTML = data.schools.map((s) => `
-          <article class="school" style="--c:${COLORS[s.id] || "var(--accent)"}">
-            <div class="school-head">
-              <div>
-                <div class="uni">${esc(s.school)}</div>
-                <h2>${esc(s.dept)}</h2>
-              </div>
-              <a href="${esc(s.list)}" target="_blank" rel="noopener">官網 →</a>
-            </div>
-            <ul>${s.items.map((it) => `
-              <li>
-                <span class="date${it.date ? "" : " none"}">${esc(it.date || "未標日期")}</span>
-                <a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>
-              </li>`).join("")}</ul>
-            ${s.error ? `<p class="err">⚠ 最近一次抓取失敗，請直接到官網查看。</p>` : ""}
-          </article>`).join("");
+        state.data = await res.json();
+        document.getElementById("chips").innerHTML =
+          `<button type="button" class="chip" data-school="all">全部</button>` +
+          state.data.schools.map((s) =>
+            `<button type="button" class="chip" data-school="${esc(s.id)}" style="--c:${color(s.id)}"><span class="dot"></span>${esc(SHORT[s.id] || s.dept)}</button>`).join("");
+        render();
       } catch (e) {
+        view.className = "status";
         view.textContent = "資料暫時無法載入，請稍後再試。";
       }
     })();
