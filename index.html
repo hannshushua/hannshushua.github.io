@@ -1,11 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hannshushua</title>
+  <meta name="description" content="長庚大學資訊工程學系學生 — 電腦視覺與 AI 應用專題作品集">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fafaf9;
+      --surface: #ffffff;
+      --text: #1c1917;
+      --muted: #57534e;
+      --border: #e7e5e4;
+      --accent: #2563eb;
+      --accent-soft: #dbeafe;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0c0a09;
+        --surface: #1c1917;
+        --text: #f5f5f4;
+        --muted: #a8a29e;
+        --border: #292524;
+        --accent: #60a5fa;
+        --accent-soft: #1e3a5f;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Inter", "Noto Sans TC", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .container { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+
+    nav {
+      position: sticky; top: 0; z-index: 10;
+      background: color-mix(in srgb, var(--bg) 85%, transparent);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+    }
+    nav .container { display: flex; justify-content: space-between; align-items: center; height: 56px; }
+    nav .logo { font-weight: 800; color: var(--text); }
+    nav ul { display: flex; gap: 20px; list-style: none; font-size: 0.95rem; }
+    nav ul a { color: var(--muted); }
+    nav ul a:hover { color: var(--text); text-decoration: none; }
+
+    header { padding: 96px 0 64px; }
+    header .hello { color: var(--accent); font-weight: 600; margin-bottom: 8px; }
+    header h1 { font-size: clamp(2.2rem, 6vw, 3.4rem); font-weight: 800; line-height: 1.15; margin-bottom: 16px; }
+    header p { color: var(--muted); font-size: 1.1rem; max-width: 560px; }
+    .buttons { display: flex; gap: 12px; margin-top: 28px; flex-wrap: wrap; }
+    .btn {
+      display: inline-block; padding: 10px 20px; border-radius: 8px;
+      font-weight: 600; font-size: 0.95rem; border: 1px solid var(--border);
+      color: var(--text); background: var(--surface);
+    }
+    .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .btn:hover { text-decoration: none; opacity: 0.88; }
+
+    section { padding: 48px 0; border-top: 1px solid var(--border); }
+    section h2 { font-size: 1.5rem; margin-bottom: 24px; }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .tag {
+      font-size: 0.85rem; padding: 4px 12px; border-radius: 999px;
+      background: var(--accent-soft); color: var(--accent); font-weight: 500;
+    }
+
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 12px; padding: 24px; margin-bottom: 16px;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.06); }
+    .card h3 { font-size: 1.15rem; margin-bottom: 6px; }
+    .card p { color: var(--muted); margin-bottom: 14px; }
+    .card .links { margin-top: 14px; font-size: 0.95rem; }
+
+    .timeline { list-style: none; }
+    .timeline li { display: grid; grid-template-columns: 120px 1fr; gap: 16px; margin-bottom: 16px; }
+    .timeline .when { color: var(--muted); font-size: 0.95rem; }
+
+    footer { padding: 40px 0; text-align: center; color: var(--muted); font-size: 0.9rem; border-top: 1px solid var(--border); }
+
+    @media (max-width: 560px) {
+      nav ul { gap: 14px; font-size: 0.9rem; }
+      header { padding: 64px 0 40px; }
+      .timeline li { grid-template-columns: 1fr; gap: 0; }
+    }
+  </style>
 </head>
 <body>
-    CCCCC
+
+  <nav>
+    <div class="container">
+      <a class="logo" href="#">hannshushua</a>
+      <ul>
+        <li><a href="#about">關於</a></li>
+        <li><a href="#projects">專題</a></li>
+        <li><a href="#contact">聯絡</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="container">
+    <p class="hello">Hi there 👋</p>
+    <h1>你好，我是 hannshushua</h1>
+    <p>長庚大學資訊工程學系學生，專注於電腦視覺與 AI 應用，喜歡把技術用在真正能幫助人的地方。</p>
+    <div class="buttons">
+      <a class="btn primary" href="#projects">看我的專題</a>
+      <a class="btn" href="https://github.com/hannshushua" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>關於我</h2>
+      <ul class="timeline">
+        <li>
+          <span class="when">就讀中</span>
+          <span><strong>長庚大學</strong> 資訊工程學系</span>
+        </li>
+      </ul>
+      <h2 style="margin-top: 32px;">技能</h2>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">C</span>
+        <span class="tag">HTML / CSS / JS</span>
+        <span class="tag">Computer Vision</span>
+        <span class="tag">YOLO</span>
+        <span class="tag">SAM</span>
+        <span class="tag">Git</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>專題作品</h2>
+
+      <div class="card">
+        <h3>PDMS2-AI-Screener</h3>
+        <p>以 AI 輔助的精細動作發展遲緩早期篩檢系統（PDMS-2）。結合 YOLO 物件偵測、SAM 影像分割與幾何分析，自動評估兒童的動作表現，並以遊戲化方式進行檢測。</p>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">YOLO</span>
+          <span class="tag">SAM</span>
+          <span class="tag">醫療 AI</span>
+        </div>
+        <div class="links">
+          <a href="https://github.com/hannshushua/PDMS2-AI-Screener" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>cd2026</h3>
+        <p>以 C 語言撰寫的課程實作與練習。</p>
+        <div class="tags">
+          <span class="tag">C</span>
+        </div>
+        <div class="links">
+          <a href="https://github.com/hannshushua/cd2026" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>聯絡我</h2>
+      <p style="color: var(--muted); margin-bottom: 20px;">歡迎在 GitHub 上找到我，或討論任何有趣的合作想法！</p>
+      <div class="buttons">
+        <a class="btn" href="https://github.com/hannshushua" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> hannshushua · Built with GitHub Pages
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
