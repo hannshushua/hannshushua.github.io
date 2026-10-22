@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T19:34+08:00",
+  "updated_at": "2026-10-22T19:37+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -17,9 +17,39 @@
           "title": "【徵才公告】國立臺灣大學生物機電工程學系教師徵才公告",
           "url": "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64629_state_F5D336F102ACBC68_s_261173_sms_68438.html",
           "date": "2026-10-06"
+        },
+        {
+          "title": "【獎學金公告】王榮圳獎學金申請公告",
+          "url": "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266522_sms_63991.html",
+          "date": "2026-10-06"
+        },
+        {
+          "title": "【獎學金公告】115學年度教育部博士生獎學金第2梯次申請",
+          "url": "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266481_sms_63991.html",
+          "date": "2026-10-02"
+        },
+        {
+          "title": "【獎學金公告】2026臺大校長獎開始申請",
+          "url": "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266324_sms_63991.html",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "115學年度第2學期碩士班逕行修讀博士學位及116學年度第1學期應屆畢業學士班在學生逕行修讀博士學位申請公告",
+          "url": "https://www.bime.ntu.edu.tw/News_Content_n_69460_s_266287.html",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "9、10月份原創201空間開放時段",
+          "url": "https://www.bime.ntu.edu.tw/News_Content_n_64602_s_266093.html",
+          "date": "2026-09-03"
+        },
+        {
+          "title": "8月份原創201空間開放時段",
+          "url": "https://www.bime.ntu.edu.tw/News_Content_n_64602_s_264818.html",
+          "date": "2026-08-06"
         }
       ],
-      "fetched_at": "2026-10-22T19:34+08:00",
+      "fetched_at": "2026-10-22T19:37+08:00",
       "error": null
     },
     {
@@ -38,9 +68,39 @@
           "title": "116學年度醫電所碩士班甄試入學初試合格名單及注意事項",
           "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=73e359e1-ebf6-4436-82de-a02f7aa0b4b4",
           "date": "2026-10-20"
+        },
+        {
+          "title": "116學年度博士班甄試簡章出爐~報名至115年10月7日下午5:00止",
+          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=e7f9bf23-093b-40ed-91a8-119562f5f6de",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "116學年度甄試簡章出爐~報名至115年10月7日下午5:00止",
+          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=d0f63100-c74d-4762-90b7-fbf2f5ff7fe5",
+          "date": "2026-09-10"
+        },
+        {
+          "title": "115A舊生註冊須知",
+          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=71c59bc5-d78f-4e78-bb83-b7d03cd252a4",
+          "date": "2026-06-02"
+        },
+        {
+          "title": "115學年度碩士班考試入學備取作業(已滿)",
+          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=cb4182ae-a959-4d59-8492-8b29d50bf211",
+          "date": "2026-04-28"
+        },
+        {
+          "title": "115學年度碩士班考試入學第3階段備取生名單及報到注意事項",
+          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=1fecd83e-ab86-463b-96b6-dc08aa20b547",
+          "date": "2026-04-23"
+        },
+        {
+          "title": "115學年度碩士班考試入學第2階段備取生名單及報到注意事項",
+          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=e5a67de2-0a1b-4b4c-b0bf-9b2f0b2bb1a5",
+          "date": "2026-04-21"
         }
       ],
-      "fetched_at": "2026-10-22T19:34+08:00",
+      "fetched_at": "2026-10-22T19:37+08:00",
       "error": null
     },
     {
@@ -59,9 +119,29 @@
           "title": "[徵才] 國立陽明交通大學 生物醫學工程學系徵聘專任助理教授(含)以上二名",
           "url": "https://nycubme.nycu.edu.tw/archives/5128",
           "date": "2026-09-21"
+        },
+        {
+          "title": "115學年度四技二專入學甄試時間日期公告",
+          "url": "https://nycubme.nycu.edu.tw/archives/5093",
+          "date": "2026-06-11"
+        },
+        {
+          "title": "國立陽明交通大學 生物醫學工程學系 115 學年度 大學申請入學 第二階段指定項目甄試 面試場次分配",
+          "url": "https://nycubme.nycu.edu.tw/archives/5076",
+          "date": "2026-05-08"
+        },
+        {
+          "title": "115學年度生物醫學工程學系碩士班招生初試合格名單及面試時間配置表公告",
+          "url": "https://nycubme.nycu.edu.tw/archives/5057",
+          "date": "2026-03-05"
+        },
+        {
+          "title": "2025/12/03～12/04 本系校友王奕嵐博士專題演講",
+          "url": "https://nycubme.nycu.edu.tw/archives/5021",
+          "date": "2025-11-27"
         }
       ],
-      "fetched_at": "2026-10-22T19:34+08:00",
+      "fetched_at": "2026-10-22T19:37+08:00",
       "error": null
     },
     {
@@ -80,9 +160,39 @@
           "title": "2026/10/21(三)｜ 歡迎高雄醫學大學醫化系李偉鵬副教授蒞臨演講｜主題：Bridging Chemistry and Medicine： A Great Opportunity AheadBridging Chemistry and Medicine： A Great Opportunity Ahead",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316563,r11.php?Lang=zh-tw",
           "date": null
+        },
+        {
+          "title": "賀！本系崔博翔教授榮獲入選史丹佛大學發布之2026年「全球前2%頂尖科學家榜單」",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316265,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
+          "title": "2026/10/14(三)｜ 歡迎米飛生醫股份有限公司陳培煜執行長蒞臨演講｜主題：從實驗室到市場：AI超音波新創之路",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-315913,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
+          "title": "2026/10/07(三)｜ 歡迎中央研究院應用科學研究中心董奕鍾研究員蒞臨演講｜主題：利用工程方法重現體內的微觀環境： 談微流體細胞培養",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-315500,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
+          "title": "【投票通知Notice!】115學年度傑出導師獎，請用選票支持愛護、關懷你的老師，即日起From now~11/24(Tues.)止(Please vote for your outstanding teacher)",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-315353,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
+          "title": "2026/09/30(三)｜ 歡迎中原大學生物醫學工程學系林政鞍副教授蒞臨演講｜主題：新創超顯微鏡：看不見的世界與看的見的未來 Startup Super-Microscopy: The Unseen World and the Foreseen Future",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-315158,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
+          "title": "【環安衛】行政院於115年9月11日公告修正「管制藥品分級及品項」部分分級及品項，並自115年9月15日生效，請查照。",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-315140,r11.php?Lang=zh-tw",
+          "date": null
         }
       ],
-      "fetched_at": "2026-10-22T19:34+08:00",
+      "fetched_at": "2026-10-22T19:37+08:00",
       "error": null
     },
     {
@@ -101,9 +211,39 @@
           "title": "115學年度醫學資訊研究所新生須知",
           "url": "https://www.imi.ncku.edu.tw/zh-hant/news/386",
           "date": "2026-09-02"
+        },
+        {
+          "title": "115學年度第一學期學術演講(seminar)計劃表",
+          "url": "https://www.imi.ncku.edu.tw/zh-hant/news/385",
+          "date": "2026-09-01"
+        },
+        {
+          "title": "(重要)seminar與資工醫資導論上課規定",
+          "url": "https://www.imi.ncku.edu.tw/zh-hant/news/384",
+          "date": "2026-09-01"
+        },
+        {
+          "title": "115學年度第1學期在學學生兵役「緩徵及儘後召集」申請公告",
+          "url": "https://www.imi.ncku.edu.tw/zh-hant/news/383",
+          "date": "2026-08-20"
+        },
+        {
+          "title": "【轉發課務組】115學年度第1學期研究生學位考試重要提醒事項",
+          "url": "https://www.imi.ncku.edu.tw/zh-hant/news/382",
+          "date": "2026-08-06"
+        },
+        {
+          "title": "(碩一新生請注意)請於8/31(一)前上網填寫大學基礎課修課資訊",
+          "url": "https://www.imi.ncku.edu.tw/zh-hant/news/381",
+          "date": "2026-07-25"
+        },
+        {
+          "title": "資訊所、醫資所、AI學程新生學分抵免注意事項",
+          "url": "https://www.imi.ncku.edu.tw/zh-hant/news/380",
+          "date": "2026-07-23"
         }
       ],
-      "fetched_at": "2026-10-22T19:34+08:00",
+      "fetched_at": "2026-10-22T19:37+08:00",
       "error": null
     }
   ]

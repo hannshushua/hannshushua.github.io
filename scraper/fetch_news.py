@@ -18,7 +18,7 @@ from requests.adapters import HTTPAdapter
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "data" / "news.json"
-MAX_ITEMS = 2
+MAX_ITEMS = 8  # 每間學校保留幾則；首頁只顯示前 2 則
 TW = timezone(timedelta(hours=8))
 
 class LenientX509Adapter(HTTPAdapter):
