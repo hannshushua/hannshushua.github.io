@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T19:37+08:00",
+  "updated_at": "2026-10-22T21:29+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -111,7 +111,7 @@
         }
       ],
       "fetched_at": "2026-10-22T19:37+08:00",
-      "error": "HTTPSConnectionPool(host='ibe.nycu.edu.tw', port=443): Max retries exceeded with url: /ibe/ch/app/news/list?module=headnews&id=6262 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ibe.nycu.edu.t",
+      "error": null,
       "seen": [
         "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c68b3c6a-8856-45e8-b3b7-93af25bbebdf",
         "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=73e359e1-ebf6-4436-82de-a02f7aa0b4b4",
@@ -162,7 +162,7 @@
         }
       ],
       "fetched_at": "2026-10-22T19:37+08:00",
-      "error": "HTTPSConnectionPool(host='nycubme.nycu.edu.tw', port=443): Max retries exceeded with url: /archives/category/uncategorized (Caused by ConnectTimeoutError(<HTTPSConnection(host='nycubme.nycu.edu.tw', p",
+      "error": null,
       "seen": [
         "https://nycubme.nycu.edu.tw/archives/5135",
         "https://nycubme.nycu.edu.tw/archives/5128",
@@ -292,6 +292,250 @@
         "https://www.imi.ncku.edu.tw/zh-hant/news/382",
         "https://www.imi.ncku.edu.tw/zh-hant/news/381",
         "https://www.imi.ncku.edu.tw/zh-hant/news/380"
+      ]
+    },
+    {
+      "id": "nsysu-imst",
+      "school": "國立中山大學",
+      "dept": "醫學科技研究所（醫科所）",
+      "home": "https://imst.nsysu.edu.tw/",
+      "list": "https://imst.nsysu.edu.tw/p/403-1333-11-1.php?Lang=zh-tw",
+      "items": [
+        {
+          "title": "【重要公告】生物醫學科技學系、生物醫學研究所、醫學科技研究所三單位整併師生說明會會議紀錄及溝通情形相關紀錄(115/09/14)",
+          "url": "https://imst.nsysu.edu.tw/static/file/333/1333/img/914801575.pdf",
+          "date": "2026-10-15"
+        },
+        {
+          "title": "【公告】116年度中山大學醫科所碩士班招生資訊",
+          "url": "https://imst.nsysu.edu.tw/p/406-1333-382580,r11.php?Lang=zh-tw",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "【公告】生醫科技系、生醫所、醫科所 三單位師生整併說明會",
+          "url": "https://imst.nsysu.edu.tw/p/406-1333-381422,r11.php?Lang=zh-tw",
+          "date": "2026-09-02"
+        },
+        {
+          "title": "【公告】115學年度第一學期兵役緩徵、儘後召集與延畢延長、離校消滅等申請相關事宜",
+          "url": "https://imst.nsysu.edu.tw/p/406-1333-380924,r11.php?Lang=zh-tw",
+          "date": "2026-08-21"
+        },
+        {
+          "title": "【公告】115學年度第一學期學生就學貸款注意事項",
+          "url": "https://imst.nsysu.edu.tw/p/406-1333-380923,r11.php?Lang=zh-tw",
+          "date": "2026-08-21"
+        },
+        {
+          "title": "【公告】2027-2028赴日本學生出國交換計畫",
+          "url": "https://imst.nsysu.edu.tw/p/406-1333-379977,r11.php?Lang=zh-tw",
+          "date": "2026-07-31"
+        },
+        {
+          "title": "【公告】115學年度第1學期研究生申辦學位考試相關事宜",
+          "url": "https://imst.nsysu.edu.tw/p/406-1333-379459,r11.php?Lang=zh-tw",
+          "date": "2026-07-22"
+        },
+        {
+          "title": "【公告】115年度教育部「學海築夢」、「新南向學海築夢」計畫第2次甄選",
+          "url": "https://imst.nsysu.edu.tw/p/406-1333-379458,r11.php?Lang=zh-tw",
+          "date": "2026-07-22"
+        }
+      ],
+      "fetched_at": "2026-10-22T21:29+08:00",
+      "error": null,
+      "seen": [
+        "https://imst.nsysu.edu.tw/static/file/333/1333/img/914801575.pdf",
+        "https://imst.nsysu.edu.tw/p/406-1333-382580,r11.php?Lang=zh-tw",
+        "https://imst.nsysu.edu.tw/p/406-1333-381422,r11.php?Lang=zh-tw",
+        "https://imst.nsysu.edu.tw/p/406-1333-380924,r11.php?Lang=zh-tw",
+        "https://imst.nsysu.edu.tw/p/406-1333-380923,r11.php?Lang=zh-tw",
+        "https://imst.nsysu.edu.tw/p/406-1333-379977,r11.php?Lang=zh-tw",
+        "https://imst.nsysu.edu.tw/p/406-1333-379459,r11.php?Lang=zh-tw",
+        "https://imst.nsysu.edu.tw/p/406-1333-379458,r11.php?Lang=zh-tw"
+      ]
+    },
+    {
+      "id": "ccu-csie",
+      "school": "國立中正大學",
+      "dept": "資訊工程學系（資工所）",
+      "home": "https://cs.ccu.edu.tw/",
+      "list": "https://cs.ccu.edu.tw/p/403-1094-547-1.php?Lang=zh-tw",
+      "items": [
+        {
+          "title": "國立中正大學資訊工程學系系友會第九屆理事改選結果",
+          "url": "https://cs.ccu.edu.tw/p/450-1094-96614,c0.php?Lang=zh-tw",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "台灣美光目前正在招募應屆畢業生及畢業兩年內的校友加入美光",
+          "url": "https://cs.ccu.edu.tw/p/406-1094-94806,r547.php?Lang=zh-tw",
+          "date": "2026-09-14"
+        },
+        {
+          "title": "115學年度博士班招生口試時間表.pdf",
+          "url": "https://cs.ccu.edu.tw/p/450-1094-89331,c0.php?Lang=zh-tw",
+          "date": "2026-05-06"
+        },
+        {
+          "title": "114-2資訊工程系轉所申請",
+          "url": "https://cs.ccu.edu.tw/p/406-1094-87218,r547.php?Lang=zh-tw",
+          "date": "2026-03-27"
+        },
+        {
+          "title": "115碩考錄取生意願登記及報到須知.pdf",
+          "url": "https://cs.ccu.edu.tw/p/450-1094-87217,c0.php?Lang=zh-tw",
+          "date": "2026-03-27"
+        },
+        {
+          "title": "115學年度中正資工碩士班甄試口試時間.pdf",
+          "url": "https://cs.ccu.edu.tw/p/450-1094-81575,c0.php?Lang=zh-tw",
+          "date": "2025-11-11"
+        },
+        {
+          "title": "115學年度中正資工碩士班甄試口試流程.pdf",
+          "url": "https://cs.ccu.edu.tw/p/450-1094-81432,c0.php?Lang=zh-tw",
+          "date": "2025-11-07"
+        },
+        {
+          "title": "本系115學年度碩士班招生考試取消分組辦理.pdf",
+          "url": "https://cs.ccu.edu.tw/p/450-1094-77151,c0.php?Lang=zh-tw",
+          "date": "2025-07-25"
+        }
+      ],
+      "fetched_at": "2026-10-22T21:29+08:00",
+      "error": null,
+      "seen": [
+        "https://cs.ccu.edu.tw/p/450-1094-96614,c0.php?Lang=zh-tw",
+        "https://cs.ccu.edu.tw/p/406-1094-94806,r547.php?Lang=zh-tw",
+        "https://cs.ccu.edu.tw/p/450-1094-89331,c0.php?Lang=zh-tw",
+        "https://cs.ccu.edu.tw/p/406-1094-87218,r547.php?Lang=zh-tw",
+        "https://cs.ccu.edu.tw/p/450-1094-87217,c0.php?Lang=zh-tw",
+        "https://cs.ccu.edu.tw/p/450-1094-81575,c0.php?Lang=zh-tw",
+        "https://cs.ccu.edu.tw/p/450-1094-81432,c0.php?Lang=zh-tw",
+        "https://cs.ccu.edu.tw/p/450-1094-77151,c0.php?Lang=zh-tw"
+      ]
+    },
+    {
+      "id": "nycu-ece",
+      "school": "國立陽明交通大學",
+      "dept": "電機學院",
+      "home": "https://ece.nycu.edu.tw/",
+      "list": "https://ece.nycu.edu.tw/latestevent/index.aspx?Parser=9,3,24",
+      "items": [
+        {
+          "title": "10/27 友善籃框校園公益講座，歡迎師生踴躍參加",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2573",
+          "date": "2026-10-20"
+        },
+        {
+          "title": "【國際論壇】 11/03 IEEE 2026候任主席 ✕ 群聯電子創辦人潘健成學長演講",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2572",
+          "date": "2026-10-20"
+        },
+        {
+          "title": "賀!本院吳炳飛終身講座教授獲第三十三屆東元獎－科技類獎",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2571",
+          "date": "2026-10-06"
+        },
+        {
+          "title": "10/02 國泰金控 X TIIA影響力投資校園巡迴論壇，歡迎師生踴躍參加",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2570",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "115學年度「財團法人新光鋼添澄慈善事業基金會菁英學生獎學金」即日起至2026/9/24(四)受理申請",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2569",
+          "date": "2026-09-17"
+        },
+        {
+          "title": "116學年度陽明交大電機學院各系所碩士班甄試招生一覽表",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2568",
+          "date": "2026-09-10"
+        },
+        {
+          "title": "(內附可指導老師名單)116學年度陽明交通大學【電機學院碩士班聯招】甄試入學招生公告",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2567",
+          "date": "2026-09-10"
+        },
+        {
+          "title": "電機學院教師榮獲有庠科技獎項 曾銘綸副教授獲論文獎、劉柏村講座教授獲發明獎",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2566",
+          "date": "2026-09-03"
+        }
+      ],
+      "fetched_at": "2026-10-22T21:29+08:00",
+      "error": null,
+      "seen": [
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2573",
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2572",
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2571",
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2570",
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2569",
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2568",
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2567",
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2566"
+      ]
+    },
+    {
+      "id": "nycu-aimc",
+      "school": "國立陽明交通大學",
+      "dept": "人工智慧醫學計算所（資工系研究所公告）",
+      "home": "https://www.cs.nycu.edu.tw/",
+      "list": "https://www.cs.nycu.edu.tw/announcements/graduate",
+      "items": [
+        {
+          "title": "【SEMI 敬邀推薦】碩博士生赴英交流｜2027 台英半導體聯合培力計畫_陽明交通大學",
+          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14389",
+          "date": "2026-10-19"
+        },
+        {
+          "title": "【博士班】115年國科會暨教育部博士生獎學金申請(自即日起開放申請至115.10.15止)",
+          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14360",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "【博士班】116學年度第1學期第一梯次逕修讀博士學位申請公告(申請自即日起至115年10月 7 日(三)下午5:00止)",
+          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14345",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "【博士班】115學年度第一學期博士班資格考抵免(新生以成績單抵免)審核結果公告",
+          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14339",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "「國際扶輪3521/3522地區2026-27年度生命橋樑助學計畫」獎學金",
+          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14332",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "國立陽明交通大學資訊學院116學年度碩士班與博士班甄試招生說明會之簡報",
+          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14326",
+          "date": "2026-09-17"
+        },
+        {
+          "title": "戴夫寇爾 2026 全國資訊安全獎學金計畫",
+          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14320",
+          "date": "2026-09-16"
+        },
+        {
+          "title": "【博士班招生】國立陽明交通大學116學年度「博士班甄試入學」招生公告及招生簡章[報名截止115/10/07(三)17:00 止]",
+          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14310",
+          "date": "2026-09-10"
+        }
+      ],
+      "fetched_at": "2026-10-22T21:29+08:00",
+      "error": null,
+      "seen": [
+        "https://www.cs.nycu.edu.tw/announcements/detail/14389",
+        "https://www.cs.nycu.edu.tw/announcements/detail/14360",
+        "https://www.cs.nycu.edu.tw/announcements/detail/14345",
+        "https://www.cs.nycu.edu.tw/announcements/detail/14339",
+        "https://www.cs.nycu.edu.tw/announcements/detail/14332",
+        "https://www.cs.nycu.edu.tw/announcements/detail/14326",
+        "https://www.cs.nycu.edu.tw/announcements/detail/14320",
+        "https://www.cs.nycu.edu.tw/announcements/detail/14310"
       ]
     }
   ]
