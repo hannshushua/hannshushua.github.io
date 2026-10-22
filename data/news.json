@@ -50,7 +50,17 @@
         }
       ],
       "fetched_at": "2026-10-22T19:37+08:00",
-      "error": null
+      "error": null,
+      "seen": [
+        "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266643_sms_63991.html",
+        "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64629_state_F5D336F102ACBC68_s_261173_sms_68438.html",
+        "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266522_sms_63991.html",
+        "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266481_sms_63991.html",
+        "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266324_sms_63991.html",
+        "https://www.bime.ntu.edu.tw/News_Content_n_69460_s_266287.html",
+        "https://www.bime.ntu.edu.tw/News_Content_n_64602_s_266093.html",
+        "https://www.bime.ntu.edu.tw/News_Content_n_64602_s_264818.html"
+      ]
     },
     {
       "id": "nycu-ibe",
@@ -101,7 +111,17 @@
         }
       ],
       "fetched_at": "2026-10-22T19:37+08:00",
-      "error": null
+      "error": "HTTPSConnectionPool(host='ibe.nycu.edu.tw', port=443): Max retries exceeded with url: /ibe/ch/app/news/list?module=headnews&id=6262 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ibe.nycu.edu.t",
+      "seen": [
+        "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c68b3c6a-8856-45e8-b3b7-93af25bbebdf",
+        "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=73e359e1-ebf6-4436-82de-a02f7aa0b4b4",
+        "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=e7f9bf23-093b-40ed-91a8-119562f5f6de",
+        "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=d0f63100-c74d-4762-90b7-fbf2f5ff7fe5",
+        "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=71c59bc5-d78f-4e78-bb83-b7d03cd252a4",
+        "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=cb4182ae-a959-4d59-8492-8b29d50bf211",
+        "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=1fecd83e-ab86-463b-96b6-dc08aa20b547",
+        "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=e5a67de2-0a1b-4b4c-b0bf-9b2f0b2bb1a5"
+      ]
     },
     {
       "id": "nycu-bme",
@@ -142,7 +162,15 @@
         }
       ],
       "fetched_at": "2026-10-22T19:37+08:00",
-      "error": null
+      "error": "HTTPSConnectionPool(host='nycubme.nycu.edu.tw', port=443): Max retries exceeded with url: /archives/category/uncategorized (Caused by ConnectTimeoutError(<HTTPSConnection(host='nycubme.nycu.edu.tw', p",
+      "seen": [
+        "https://nycubme.nycu.edu.tw/archives/5135",
+        "https://nycubme.nycu.edu.tw/archives/5128",
+        "https://nycubme.nycu.edu.tw/archives/5093",
+        "https://nycubme.nycu.edu.tw/archives/5076",
+        "https://nycubme.nycu.edu.tw/archives/5057",
+        "https://nycubme.nycu.edu.tw/archives/5021"
+      ]
     },
     {
       "id": "nthu-bmes",
@@ -193,7 +221,17 @@
         }
       ],
       "fetched_at": "2026-10-22T19:37+08:00",
-      "error": null
+      "error": null,
+      "seen": [
+        "https://bmes.site.nthu.edu.tw/p/406-1360-316723,r11.php?Lang=zh-tw",
+        "https://bmes.site.nthu.edu.tw/p/406-1360-316563,r11.php?Lang=zh-tw",
+        "https://bmes.site.nthu.edu.tw/p/406-1360-316265,r11.php?Lang=zh-tw",
+        "https://bmes.site.nthu.edu.tw/p/406-1360-315913,r11.php?Lang=zh-tw",
+        "https://bmes.site.nthu.edu.tw/p/406-1360-315500,r11.php?Lang=zh-tw",
+        "https://bmes.site.nthu.edu.tw/p/406-1360-315353,r11.php?Lang=zh-tw",
+        "https://bmes.site.nthu.edu.tw/p/406-1360-315158,r11.php?Lang=zh-tw",
+        "https://bmes.site.nthu.edu.tw/p/406-1360-315140,r11.php?Lang=zh-tw"
+      ]
     },
     {
       "id": "ncku-imi",
@@ -244,7 +282,17 @@
         }
       ],
       "fetched_at": "2026-10-22T19:37+08:00",
-      "error": null
+      "error": null,
+      "seen": [
+        "https://www.imi.ncku.edu.tw/zh-hant/news/387",
+        "https://www.imi.ncku.edu.tw/zh-hant/news/386",
+        "https://www.imi.ncku.edu.tw/zh-hant/news/385",
+        "https://www.imi.ncku.edu.tw/zh-hant/news/384",
+        "https://www.imi.ncku.edu.tw/zh-hant/news/383",
+        "https://www.imi.ncku.edu.tw/zh-hant/news/382",
+        "https://www.imi.ncku.edu.tw/zh-hant/news/381",
+        "https://www.imi.ncku.edu.tw/zh-hant/news/380"
+      ]
     }
   ]
 }
