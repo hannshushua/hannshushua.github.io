@@ -33,6 +33,11 @@ SHORT = {
 }
 
 
+def env(name):
+    """讀取環境變數並去掉前後空白／換行（從網頁或指令貼上時常會多帶）。"""
+    return (os.environ.get(name) or "").strip()
+
+
 def group_by_school(items):
     groups = {}
     for it in items:
@@ -63,7 +68,7 @@ def post_json(url, payload):
 
 
 def send_telegram(items, title):
-    token, chat_id = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
+    token, chat_id = env("TELEGRAM_BOT_TOKEN"), env("TELEGRAM_CHAT_ID")
     if not (token and chat_id):
         print("[skip] Telegram：沒有設定 TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID")
         return True
@@ -89,7 +94,7 @@ def send_telegram(items, title):
 
 
 def send_discord(items, title):
-    url = os.environ.get("DISCORD_WEBHOOK_URL")
+    url = env("DISCORD_WEBHOOK_URL")
     if not url:
         print("[skip] Discord：沒有設定 DISCORD_WEBHOOK_URL")
         return True
