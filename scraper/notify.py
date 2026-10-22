@@ -35,7 +35,7 @@ SHORT = {
 
 def env(name):
     """讀取環境變數並去掉前後空白／換行（從網頁或指令貼上時常會多帶）。"""
-    return (os.environ.get(name) or "").strip()
+    return (os.environ.get(name) or "").strip().lstrip("\ufeff")  # 也去掉 Windows 管線可能加上的 BOM
 
 
 def group_by_school(items):
