@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 */3 * * *"   # 每 3 小時（UTC）跑一次
   workflow_dispatch:          # 可在 Actions 頁面手動觸發
+    inputs:
+      test_notify:
+        description: "只發一則測試通知（確認 Telegram / Discord 設定）"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -15,6 +20,10 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
     steps:
       - uses: actions/checkout@v4
 
@@ -24,11 +33,18 @@ jobs:
           cache: pip
           cache-dependency-path: scraper/requirements.txt
 
+      - name: 測試通知
+        if: inputs.test_notify
+        run: python scraper/notify.py --test
+
       - run: pip install -r scraper/requirements.txt
+        if: ${{ !inputs.test_notify }}
 
       - run: python scraper/fetch_news.py
+        if: ${{ !inputs.test_notify }}
 
       - name: 有變動才 commit
+        if: ${{ !inputs.test_notify }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -39,3 +55,8 @@ jobs:
             git commit -m "chore: 更新申請學校最新消息"
             git push
           fi
+
+      # 先 commit 再通知：就算通知失敗，資料也已更新；失敗時 workflow 會變紅，GitHub 會寄信提醒
+      - name: 發送新公告通知
+        if: ${{ !inputs.test_notify }}
+        run: python scraper/notify.py

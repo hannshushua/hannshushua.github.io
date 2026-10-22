@@ -15,10 +15,13 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "data" / "news.json"
-MAX_ITEMS = 8  # 每間學校保留幾則；首頁只顯示前 2 則
+NEW_ITEMS = ROOT / "new_items.json"  # 本次新出現的公告，給 notify.py 發通知用（不進 git）
+MAX_ITEMS = 8  # 每間學校在網頁上顯示幾則
+MAX_SEEN = 200  # 每間學校記住幾個看過的公告連結
 TW = timezone(timedelta(hours=8))
 
 class LenientX509Adapter(HTTPAdapter):
@@ -33,7 +36,9 @@ class LenientX509Adapter(HTTPAdapter):
 
 
 session = requests.Session()
-session.mount("https://", LenientX509Adapter())
+# 連線被重置或 5xx 時自動重試 3 次（間隔 2、4、8 秒）
+retry = Retry(total=3, backoff_factor=2, status_forcelist=(429, 500, 502, 503, 504), allowed_methods=("GET",))
+session.mount("https://", LenientX509Adapter(max_retries=retry))
 session.headers["User-Agent"] = (
     "Mozilla/5.0 (compatible; hannshushua-news-bot/1.0; +https://hannshushua.github.io/)"
 )
@@ -210,25 +215,35 @@ def load_previous():
 def main():
     previous = load_previous()
     now = datetime.now(TW).isoformat(timespec="minutes")
-    results, failures = [], 0
+    results, failures, new_items = [], 0, []
 
     for cfg in SCHOOLS:
         entry = {k: cfg[k] for k in ("id", "school", "dept", "home", "list")}
+        old = previous.get(cfg["id"], {})
+        # seen：看過的所有公告連結，用來判斷「新公告」，避免同一則重複通知
+        seen = old.get("seen") or [it["url"] for it in old.get("items", [])]
         try:
             items = newest_first(cfg["parser"](cfg["list"]))
             if not items:
                 raise ValueError("沒有解析到任何消息，網站版面可能改了")
-            old = previous.get(cfg["id"], {})
+            fresh = [it for it in items if it["url"] not in seen]
+            first_time = not seen  # 第一次追蹤這間學校時不通知，免得一次湧入一堆舊公告
+            if not first_time:
+                new_items += [{**it, "school_id": cfg["id"], "school": cfg["school"], "dept": cfg["dept"]} for it in fresh]
+            seen = ([it["url"] for it in fresh] + seen)[:MAX_SEEN]
             # 內容沒變就沿用舊時間，避免每次排程都產生 commit
             changed_at = old.get("fetched_at") if old.get("items") == items and old.get("fetched_at") else now
             entry.update(items=items, fetched_at=changed_at, error=None)
-            print(f"[OK]   {cfg['id']}: {len(items)} 則")
+            print(f"[OK]   {cfg['id']}: {len(items)} 則" + ("（首次追蹤）" if first_time else f"，新公告 {len(fresh)} 則"))
         except Exception as e:  # 單一學校失敗不影響其他學校
             failures += 1
-            old = previous.get(cfg["id"], {})
             entry.update(items=old.get("items", []), fetched_at=old.get("fetched_at"), error=str(e)[:200])
             print(f"[FAIL] {cfg['id']}: {e}", file=sys.stderr)
+        entry["seen"] = seen
         results.append(entry)
+
+    NEW_ITEMS.write_text(json.dumps(new_items, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"本次新公告共 {len(new_items)} 則 → {NEW_ITEMS.name}")
 
     stamps = [s["fetched_at"] for s in results if s.get("fetched_at")]
     updated_at = max(stamps) if stamps else now
