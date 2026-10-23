@@ -221,7 +221,7 @@
         }
       ],
       "fetched_at": "2026-10-22T19:37+08:00",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='bmes.site.nthu.edu.tw', port=443): Max retries exceeded with url: /p/403-1360-11-1.php?Lang=zh-tw (Caused by ResponseError('too many 500 error responses'))",
       "seen": [
         "https://bmes.site.nthu.edu.tw/p/406-1360-316723,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-316563,r11.php?Lang=zh-tw",
