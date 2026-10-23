@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T21:29+08:00",
+  "updated_at": "2026-10-23T17:57+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -302,6 +302,11 @@
       "list": "https://imst.nsysu.edu.tw/p/403-1333-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "【公告】116學年度甄試入學面試注意事項與時間表",
+          "url": "https://imst.nsysu.edu.tw/static/file/333/1333/img/1754/762891387.pdf",
+          "date": "2026-10-23"
+        },
+        {
           "title": "【重要公告】生物醫學科技學系、生物醫學研究所、醫學科技研究所三單位整併師生說明會會議紀錄及溝通情形相關紀錄(115/09/14)",
           "url": "https://imst.nsysu.edu.tw/static/file/333/1333/img/914801575.pdf",
           "date": "2026-10-15"
@@ -335,16 +340,12 @@
           "title": "【公告】115學年度第1學期研究生申辦學位考試相關事宜",
           "url": "https://imst.nsysu.edu.tw/p/406-1333-379459,r11.php?Lang=zh-tw",
           "date": "2026-07-22"
-        },
-        {
-          "title": "【公告】115年度教育部「學海築夢」、「新南向學海築夢」計畫第2次甄選",
-          "url": "https://imst.nsysu.edu.tw/p/406-1333-379458,r11.php?Lang=zh-tw",
-          "date": "2026-07-22"
         }
       ],
-      "fetched_at": "2026-10-22T21:29+08:00",
+      "fetched_at": "2026-10-23T17:57+08:00",
       "error": null,
       "seen": [
+        "https://imst.nsysu.edu.tw/static/file/333/1333/img/1754/762891387.pdf",
         "https://imst.nsysu.edu.tw/static/file/333/1333/img/914801575.pdf",
         "https://imst.nsysu.edu.tw/p/406-1333-382580,r11.php?Lang=zh-tw",
         "https://imst.nsysu.edu.tw/p/406-1333-381422,r11.php?Lang=zh-tw",
