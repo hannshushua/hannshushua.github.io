@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T17:57+08:00",
+  "updated_at": "2026-10-24T11:37+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -486,6 +486,11 @@
       "list": "https://www.cs.nycu.edu.tw/announcements/graduate",
       "items": [
         {
+          "title": "國立陽明交通大學116學年度資訊科學與工程研究所碩士班丙丁戊組甄試入學招生初試合格名單及複試須知、時間表",
+          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14402",
+          "date": "2026-10-24"
+        },
+        {
           "title": "【SEMI 敬邀推薦】碩博士生赴英交流｜2027 台英半導體聯合培力計畫_陽明交通大學",
           "url": "https://www.cs.nycu.edu.tw/announcements/detail/14389",
           "date": "2026-10-19"
@@ -519,16 +524,12 @@
           "title": "戴夫寇爾 2026 全國資訊安全獎學金計畫",
           "url": "https://www.cs.nycu.edu.tw/announcements/detail/14320",
           "date": "2026-09-16"
-        },
-        {
-          "title": "【博士班招生】國立陽明交通大學116學年度「博士班甄試入學」招生公告及招生簡章[報名截止115/10/07(三)17:00 止]",
-          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14310",
-          "date": "2026-09-10"
         }
       ],
-      "fetched_at": "2026-10-22T21:29+08:00",
+      "fetched_at": "2026-10-24T11:37+08:00",
       "error": null,
       "seen": [
+        "https://www.cs.nycu.edu.tw/announcements/detail/14402",
         "https://www.cs.nycu.edu.tw/announcements/detail/14389",
         "https://www.cs.nycu.edu.tw/announcements/detail/14360",
         "https://www.cs.nycu.edu.tw/announcements/detail/14345",
