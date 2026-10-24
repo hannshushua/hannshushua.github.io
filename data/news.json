@@ -50,7 +50,7 @@
         }
       ],
       "fetched_at": "2026-10-22T19:37+08:00",
-      "error": "HTTPSConnectionPool(host='www.bime.ntu.edu.tw', port=443): Max retries exceeded with url: /News_n_64602_sms_63988.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.bime.ntu.edu.tw', port=",
+      "error": null,
       "seen": [
         "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266643_sms_63991.html",
         "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64629_state_F5D336F102ACBC68_s_261173_sms_68438.html",
@@ -221,7 +221,7 @@
         }
       ],
       "fetched_at": "2026-10-22T19:37+08:00",
-      "error": "HTTPSConnectionPool(host='bmes.site.nthu.edu.tw', port=443): Max retries exceeded with url: /p/403-1360-11-1.php?Lang=zh-tw (Caused by NewConnectionError(\"HTTPSConnection(host='bmes.site.nthu.edu.tw',",
+      "error": null,
       "seen": [
         "https://bmes.site.nthu.edu.tw/p/406-1360-316723,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-316563,r11.php?Lang=zh-tw",
@@ -282,7 +282,7 @@
         }
       ],
       "fetched_at": "2026-10-22T19:37+08:00",
-      "error": "HTTPSConnectionPool(host='www.imi.ncku.edu.tw', port=443): Max retries exceeded with url: /zh-hant/news/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.imi.ncku.edu.tw', port=443): Failed to",
+      "error": null,
       "seen": [
         "https://www.imi.ncku.edu.tw/zh-hant/news/387",
         "https://www.imi.ncku.edu.tw/zh-hant/news/386",
