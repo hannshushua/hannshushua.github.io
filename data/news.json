@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T15:07+08:00",
+  "updated_at": "2026-10-27T16:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -70,6 +70,11 @@
       "list": "https://ibe.nycu.edu.tw/ibe/ch/app/news/list?module=headnews&id=6262",
       "items": [
         {
+          "title": "【招生公告】116學年度碩士班甄試口試時間調整-115年10月28日(三)",
+          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c13b732d-ee63-4c3c-9236-81b1a2286fa1",
+          "date": "2026-10-27"
+        },
+        {
           "title": "【招生公告】116學年度碩士班甄試(口試)因應颱風影響之應變措施",
           "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c68b3c6a-8856-45e8-b3b7-93af25bbebdf",
           "date": "2026-10-22"
@@ -103,16 +108,12 @@
           "title": "115學年度碩士班考試入學第3階段備取生名單及報到注意事項",
           "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=1fecd83e-ab86-463b-96b6-dc08aa20b547",
           "date": "2026-04-23"
-        },
-        {
-          "title": "115學年度碩士班考試入學第2階段備取生名單及報到注意事項",
-          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=e5a67de2-0a1b-4b4c-b0bf-9b2f0b2bb1a5",
-          "date": "2026-04-21"
         }
       ],
-      "fetched_at": "2026-10-22T19:37+08:00",
+      "fetched_at": "2026-10-27T16:07+08:00",
       "error": null,
       "seen": [
+        "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c13b732d-ee63-4c3c-9236-81b1a2286fa1",
         "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c68b3c6a-8856-45e8-b3b7-93af25bbebdf",
         "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=73e359e1-ebf6-4436-82de-a02f7aa0b4b4",
         "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=e7f9bf23-093b-40ed-91a8-119562f5f6de",
