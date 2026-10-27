@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T12:07+08:00",
+  "updated_at": "2026-10-27T15:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -242,6 +242,11 @@
       "list": "https://www.imi.ncku.edu.tw/zh-hant/news/",
       "items": [
         {
+          "title": "116學年度資訊系所(含資訊所、醫資所、人工智慧學程)碩博士班甄試第一階段錄取名單",
+          "url": "https://www.imi.ncku.edu.tw/zh-hant/news/388",
+          "date": "2026-10-27"
+        },
+        {
           "title": "(推甄務必填寫)成大資訊系/醫資所/人工智慧學程 116學年度 碩士 推甄考生資料登錄系統",
           "url": "https://www.imi.ncku.edu.tw/zh-hant/news/387",
           "date": "2026-09-09"
@@ -275,16 +280,12 @@
           "title": "(碩一新生請注意)請於8/31(一)前上網填寫大學基礎課修課資訊",
           "url": "https://www.imi.ncku.edu.tw/zh-hant/news/381",
           "date": "2026-07-25"
-        },
-        {
-          "title": "資訊所、醫資所、AI學程新生學分抵免注意事項",
-          "url": "https://www.imi.ncku.edu.tw/zh-hant/news/380",
-          "date": "2026-07-23"
         }
       ],
-      "fetched_at": "2026-10-22T19:37+08:00",
+      "fetched_at": "2026-10-27T15:07+08:00",
       "error": null,
       "seen": [
+        "https://www.imi.ncku.edu.tw/zh-hant/news/388",
         "https://www.imi.ncku.edu.tw/zh-hant/news/387",
         "https://www.imi.ncku.edu.tw/zh-hant/news/386",
         "https://www.imi.ncku.edu.tw/zh-hant/news/385",
