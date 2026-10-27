@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T19:07+08:00",
+  "updated_at": "2026-10-28T00:29+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -430,11 +430,6 @@
       "list": "https://ece.nycu.edu.tw/latestevent/index.aspx?Parser=9,3,24",
       "items": [
         {
-          "title": "10/27 友善籃框校園公益講座，歡迎師生踴躍參加",
-          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2573",
-          "date": "2026-10-20"
-        },
-        {
           "title": "【國際論壇】 11/03 IEEE 2026候任主席 ✕ 群聯電子創辦人潘健成學長演講",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2572",
           "date": "2026-10-20"
@@ -468,11 +463,17 @@
           "title": "電機學院教師榮獲有庠科技獎項 曾銘綸副教授獲論文獎、劉柏村講座教授獲發明獎",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2566",
           "date": "2026-09-03"
+        },
+        {
+          "title": "恭賀! 114學年度校級導師獎 / 院級導師獎獲獎名單",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2565",
+          "date": "2026-09-03"
         }
       ],
-      "fetched_at": "2026-10-22T21:29+08:00",
+      "fetched_at": "2026-10-28T00:29+08:00",
       "error": null,
       "seen": [
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2565",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2573",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2572",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2571",
