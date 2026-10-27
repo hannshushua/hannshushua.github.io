@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T16:37+08:00",
+  "updated_at": "2026-10-27T18:37+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -181,6 +181,11 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "【環安衛】115/10/27~116/11/28 第二高壓站供電系統更新及改壓工程施工公告",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316992,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "2026/10/28(三)｜ 歡迎邦睿生技股份有限公司洪偉桓業務協理蒞臨演講｜主題：從醫工到世界： 一位工程師走向國際市場的職涯選擇",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316904,r11.php?Lang=zh-tw",
           "date": null
@@ -214,16 +219,12 @@
           "title": "【投票通知Notice!】115學年度傑出導師獎，請用選票支持愛護、關懷你的老師，即日起From now~11/24(Tues.)止(Please vote for your outstanding teacher)",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-315353,r11.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "2026/09/30(三)｜ 歡迎中原大學生物醫學工程學系林政鞍副教授蒞臨演講｜主題：新創超顯微鏡：看不見的世界與看的見的未來 Startup Super-Microscopy: The Unseen World and the Foreseen Future",
-          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-315158,r11.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-10-25T12:07+08:00",
+      "fetched_at": "2026-10-27T18:37+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/406-1360-316992,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-316904,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-316723,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-316563,r11.php?Lang=zh-tw",
@@ -409,7 +410,7 @@
         }
       ],
       "fetched_at": "2026-10-22T21:29+08:00",
-      "error": "HTTPSConnectionPool(host='cs.ccu.edu.tw', port=443): Max retries exceeded with url: /p/403-1094-547-1.php?Lang=zh-tw (Caused by ConnectTimeoutError(<HTTPSConnection(host='cs.ccu.edu.tw', port=443) at ",
+      "error": null,
       "seen": [
         "https://cs.ccu.edu.tw/p/450-1094-96614,c0.php?Lang=zh-tw",
         "https://cs.ccu.edu.tw/p/406-1094-94806,r547.php?Lang=zh-tw",
