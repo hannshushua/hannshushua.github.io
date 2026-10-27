@@ -409,7 +409,7 @@
         }
       ],
       "fetched_at": "2026-10-22T21:29+08:00",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='cs.ccu.edu.tw', port=443): Max retries exceeded with url: /p/403-1094-547-1.php?Lang=zh-tw (Caused by ConnectTimeoutError(<HTTPSConnection(host='cs.ccu.edu.tw', port=443) at ",
       "seen": [
         "https://cs.ccu.edu.tw/p/450-1094-96614,c0.php?Lang=zh-tw",
         "https://cs.ccu.edu.tw/p/406-1094-94806,r547.php?Lang=zh-tw",
