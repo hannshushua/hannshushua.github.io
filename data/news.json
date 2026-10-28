@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T14:14+08:00",
+  "updated_at": "2026-10-28T23:37+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -309,6 +309,11 @@
       "list": "https://imst.nsysu.edu.tw/p/403-1333-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "【公告】2027-2028其他國家與地區出國交換甄選",
+          "url": "https://imst.nsysu.edu.tw/p/406-1333-385154,r11.php?Lang=zh-tw",
+          "date": "2026-10-28"
+        },
+        {
           "title": "【公告】116學年度甄試入學面試注意事項與時間表",
           "url": "https://imst.nsysu.edu.tw/static/file/333/1333/img/1754/762891387.pdf",
           "date": "2026-10-23"
@@ -342,16 +347,12 @@
           "title": "【公告】2027-2028赴日本學生出國交換計畫",
           "url": "https://imst.nsysu.edu.tw/p/406-1333-379977,r11.php?Lang=zh-tw",
           "date": "2026-07-31"
-        },
-        {
-          "title": "【公告】115學年度第1學期研究生申辦學位考試相關事宜",
-          "url": "https://imst.nsysu.edu.tw/p/406-1333-379459,r11.php?Lang=zh-tw",
-          "date": "2026-07-22"
         }
       ],
-      "fetched_at": "2026-10-23T17:57+08:00",
+      "fetched_at": "2026-10-28T23:37+08:00",
       "error": null,
       "seen": [
+        "https://imst.nsysu.edu.tw/p/406-1333-385154,r11.php?Lang=zh-tw",
         "https://imst.nsysu.edu.tw/static/file/333/1333/img/1754/762891387.pdf",
         "https://imst.nsysu.edu.tw/static/file/333/1333/img/914801575.pdf",
         "https://imst.nsysu.edu.tw/p/406-1333-382580,r11.php?Lang=zh-tw",
