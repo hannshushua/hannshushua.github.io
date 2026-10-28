@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T00:29+08:00",
+  "updated_at": "2026-10-28T14:14+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -8,6 +8,11 @@
       "home": "https://www.bime.ntu.edu.tw/",
       "list": "https://www.bime.ntu.edu.tw/News_n_64602_sms_63988.html",
       "items": [
+        {
+          "title": "116學年度臺大生物機電工程學系碩士班甄試招生口試名單",
+          "url": "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_69459_state_F5D336F102ACBC68_s_267151_sms_68439.html",
+          "date": "2026-10-28"
+        },
         {
           "title": "【獎學金公告】115學年度上學期研究所獎學金申請公告",
           "url": "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266643_sms_63991.html",
@@ -42,16 +47,12 @@
           "title": "9、10月份原創201空間開放時段",
           "url": "https://www.bime.ntu.edu.tw/News_Content_n_64602_s_266093.html",
           "date": "2026-09-03"
-        },
-        {
-          "title": "8月份原創201空間開放時段",
-          "url": "https://www.bime.ntu.edu.tw/News_Content_n_64602_s_264818.html",
-          "date": "2026-08-06"
         }
       ],
-      "fetched_at": "2026-10-22T19:37+08:00",
+      "fetched_at": "2026-10-28T14:14+08:00",
       "error": null,
       "seen": [
+        "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_69459_state_F5D336F102ACBC68_s_267151_sms_68439.html",
         "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266643_sms_63991.html",
         "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64629_state_F5D336F102ACBC68_s_261173_sms_68438.html",
         "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266522_sms_63991.html",
@@ -181,6 +182,11 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "【網路服務公告】醫環館11/7(六)上午8:00-9:00防火牆韌體更新暨短暫網路中斷通知 / 【Network Service Notice】Firewall Firmware Upgrade and Temporary Network Interruption at the BMES Building",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317044,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "【環安衛】115/10/27~116/11/28 第二高壓站供電系統更新及改壓工程施工公告",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316992,r11.php?Lang=zh-tw",
           "date": null
@@ -214,16 +220,12 @@
           "title": "2026/10/07(三)｜ 歡迎中央研究院應用科學研究中心董奕鍾研究員蒞臨演講｜主題：利用工程方法重現體內的微觀環境： 談微流體細胞培養",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-315500,r11.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "【投票通知Notice!】115學年度傑出導師獎，請用選票支持愛護、關懷你的老師，即日起From now~11/24(Tues.)止(Please vote for your outstanding teacher)",
-          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-315353,r11.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-10-27T18:37+08:00",
+      "fetched_at": "2026-10-28T14:14+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/406-1360-317044,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-316992,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-316904,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-316723,r11.php?Lang=zh-tw",
@@ -430,6 +432,16 @@
       "list": "https://ece.nycu.edu.tw/latestevent/index.aspx?Parser=9,3,24",
       "items": [
         {
+          "title": "賀！本院7位教師入選2026年ScholarGPS 高排名學者榜單",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2575",
+          "date": "2026-10-28"
+        },
+        {
+          "title": "賀！本院49位教師入選全球前2%頂尖科學家榜單",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2574",
+          "date": "2026-10-28"
+        },
+        {
           "title": "【國際論壇】 11/03 IEEE 2026候任主席 ✕ 群聯電子創辦人潘健成學長演講",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2572",
           "date": "2026-10-20"
@@ -458,21 +470,13 @@
           "title": "(內附可指導老師名單)116學年度陽明交通大學【電機學院碩士班聯招】甄試入學招生公告",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2567",
           "date": "2026-09-10"
-        },
-        {
-          "title": "電機學院教師榮獲有庠科技獎項 曾銘綸副教授獲論文獎、劉柏村講座教授獲發明獎",
-          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2566",
-          "date": "2026-09-03"
-        },
-        {
-          "title": "恭賀! 114學年度校級導師獎 / 院級導師獎獲獎名單",
-          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2565",
-          "date": "2026-09-03"
         }
       ],
-      "fetched_at": "2026-10-28T00:29+08:00",
+      "fetched_at": "2026-10-28T14:14+08:00",
       "error": null,
       "seen": [
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2575",
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2574",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2565",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2573",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2572",
