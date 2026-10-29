@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T23:37+08:00",
+  "updated_at": "2026-10-29T17:49+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -8,6 +8,11 @@
       "home": "https://www.bime.ntu.edu.tw/",
       "list": "https://www.bime.ntu.edu.tw/News_n_64602_sms_63988.html",
       "items": [
+        {
+          "title": "116 學年度博士班甄試招生口試時間表",
+          "url": "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_69460_state_F5D336F102ACBC68_s_267186_sms_68440.html",
+          "date": "2026-10-28"
+        },
         {
           "title": "116學年度臺大生物機電工程學系碩士班甄試招生口試名單",
           "url": "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_69459_state_F5D336F102ACBC68_s_267151_sms_68439.html",
@@ -42,16 +47,12 @@
           "title": "115學年度第2學期碩士班逕行修讀博士學位及116學年度第1學期應屆畢業學士班在學生逕行修讀博士學位申請公告",
           "url": "https://www.bime.ntu.edu.tw/News_Content_n_69460_s_266287.html",
           "date": "2026-09-22"
-        },
-        {
-          "title": "9、10月份原創201空間開放時段",
-          "url": "https://www.bime.ntu.edu.tw/News_Content_n_64602_s_266093.html",
-          "date": "2026-09-03"
         }
       ],
-      "fetched_at": "2026-10-28T14:14+08:00",
+      "fetched_at": "2026-10-29T17:49+08:00",
       "error": null,
       "seen": [
+        "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_69460_state_F5D336F102ACBC68_s_267186_sms_68440.html",
         "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_69459_state_F5D336F102ACBC68_s_267151_sms_68439.html",
         "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266643_sms_63991.html",
         "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64629_state_F5D336F102ACBC68_s_261173_sms_68438.html",
@@ -433,6 +434,11 @@
       "list": "https://ece.nycu.edu.tw/latestevent/index.aspx?Parser=9,3,24",
       "items": [
         {
+          "title": "深化國際前瞻科技鏈結！本院與泰國朱拉隆功大學展開半導體、光電與永續科技深度合作洽談",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2576",
+          "date": "2026-10-29"
+        },
+        {
           "title": "賀！本院7位教師入選2026年ScholarGPS 高排名學者榜單",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2575",
           "date": "2026-10-28"
@@ -466,16 +472,12 @@
           "title": "116學年度陽明交大電機學院各系所碩士班甄試招生一覽表",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2568",
           "date": "2026-09-10"
-        },
-        {
-          "title": "(內附可指導老師名單)116學年度陽明交通大學【電機學院碩士班聯招】甄試入學招生公告",
-          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2567",
-          "date": "2026-09-10"
         }
       ],
-      "fetched_at": "2026-10-28T14:14+08:00",
+      "fetched_at": "2026-10-29T17:49+08:00",
       "error": null,
       "seen": [
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2576",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2575",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2574",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2565",
