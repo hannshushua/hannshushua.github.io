@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T17:49+08:00",
+  "updated_at": "2026-10-30T00:52+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -183,6 +183,11 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "【招生】116學年度碩士班甄試入學複試名單＆須知 (更新時間：10/29)",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317185,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "【網路服務公告】醫環館11/7(六)上午8:00-9:00防火牆韌體更新暨短暫網路中斷通知 / 【Network Service Notice】Firewall Firmware Upgrade and Temporary Network Interruption at the BMES Building",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317044,r11.php?Lang=zh-tw",
           "date": null
@@ -216,16 +221,12 @@
           "title": "2026/10/14(三)｜ 歡迎米飛生醫股份有限公司陳培煜執行長蒞臨演講｜主題：從實驗室到市場：AI超音波新創之路",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-315913,r11.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "2026/10/07(三)｜ 歡迎中央研究院應用科學研究中心董奕鍾研究員蒞臨演講｜主題：利用工程方法重現體內的微觀環境： 談微流體細胞培養",
-          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-315500,r11.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-10-28T14:14+08:00",
+      "fetched_at": "2026-10-30T00:52+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/406-1360-317185,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317044,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-316992,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-316904,r11.php?Lang=zh-tw",
@@ -373,6 +374,11 @@
       "list": "https://cs.ccu.edu.tw/p/403-1094-547-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "【公告】國立中正大學資訊工程學系系友會第九屆會長、副會長及理事名單，敬請大家參閱。",
+          "url": "https://cs.ccu.edu.tw/p/450-1094-96896,c0.php?Lang=zh-tw",
+          "date": "2026-10-29"
+        },
+        {
           "title": "國立中正大學資訊工程學系系友會第九屆理事改選結果",
           "url": "https://cs.ccu.edu.tw/p/450-1094-96614,c0.php?Lang=zh-tw",
           "date": "2026-10-22"
@@ -406,16 +412,12 @@
           "title": "115學年度中正資工碩士班甄試口試流程.pdf",
           "url": "https://cs.ccu.edu.tw/p/450-1094-81432,c0.php?Lang=zh-tw",
           "date": "2025-11-07"
-        },
-        {
-          "title": "本系115學年度碩士班招生考試取消分組辦理.pdf",
-          "url": "https://cs.ccu.edu.tw/p/450-1094-77151,c0.php?Lang=zh-tw",
-          "date": "2025-07-25"
         }
       ],
-      "fetched_at": "2026-10-22T21:29+08:00",
+      "fetched_at": "2026-10-30T00:52+08:00",
       "error": null,
       "seen": [
+        "https://cs.ccu.edu.tw/p/450-1094-96896,c0.php?Lang=zh-tw",
         "https://cs.ccu.edu.tw/p/450-1094-96614,c0.php?Lang=zh-tw",
         "https://cs.ccu.edu.tw/p/406-1094-94806,r547.php?Lang=zh-tw",
         "https://cs.ccu.edu.tw/p/450-1094-89331,c0.php?Lang=zh-tw",
