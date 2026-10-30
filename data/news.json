@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T00:52+08:00",
+  "updated_at": "2026-10-30T16:31+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -183,6 +183,11 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "【資安】關於本校因應全球重大 PHP 系統漏洞之緊急應變措施說明_1151030",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317286,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "【招生】116學年度碩士班甄試入學複試名單＆須知 (更新時間：10/29)",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317185,r11.php?Lang=zh-tw",
           "date": null
@@ -216,16 +221,12 @@
           "title": "賀！本系崔博翔教授榮獲入選史丹佛大學發布之2026年「全球前2%頂尖科學家榜單」",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316265,r11.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "2026/10/14(三)｜ 歡迎米飛生醫股份有限公司陳培煜執行長蒞臨演講｜主題：從實驗室到市場：AI超音波新創之路",
-          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-315913,r11.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-10-30T00:52+08:00",
+      "fetched_at": "2026-10-30T16:31+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/406-1360-317286,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317185,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317044,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-316992,r11.php?Lang=zh-tw",
@@ -247,6 +248,11 @@
       "home": "https://www.imi.ncku.edu.tw/zh-hant/",
       "list": "https://www.imi.ncku.edu.tw/zh-hant/news/",
       "items": [
+        {
+          "title": "116學年度資訊系所(含資訊所、醫資所、人工智慧學程)碩博士班甄試面試時間表及注意事項",
+          "url": "https://www.imi.ncku.edu.tw/zh-hant/news/390",
+          "date": "2026-10-30"
+        },
         {
           "title": "116學年度資訊系所(含資訊所、醫資所、人工智慧學程)碩博士班甄試第一階段錄取名單",
           "url": "https://www.imi.ncku.edu.tw/zh-hant/news/388",
@@ -281,16 +287,12 @@
           "title": "115學年度第1學期在學學生兵役「緩徵及儘後召集」申請公告",
           "url": "https://www.imi.ncku.edu.tw/zh-hant/news/383",
           "date": "2026-08-20"
-        },
-        {
-          "title": "【轉發課務組】115學年度第1學期研究生學位考試重要提醒事項",
-          "url": "https://www.imi.ncku.edu.tw/zh-hant/news/382",
-          "date": "2026-08-06"
         }
       ],
-      "fetched_at": "2026-10-27T16:37+08:00",
+      "fetched_at": "2026-10-30T16:31+08:00",
       "error": null,
       "seen": [
+        "https://www.imi.ncku.edu.tw/zh-hant/news/390",
         "https://www.imi.ncku.edu.tw/zh-hant/news/389",
         "https://www.imi.ncku.edu.tw/zh-hant/news/388",
         "https://www.imi.ncku.edu.tw/zh-hant/news/387",
