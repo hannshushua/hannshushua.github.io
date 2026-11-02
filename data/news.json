@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T02:31+08:00",
+  "updated_at": "2026-11-02T11:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -184,6 +184,11 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "2026/11/04(三)｜ 歡迎長庚大學醫工系蔡協孚助理教授蒞臨演講｜主題：整合微流體生醫晶片平台和自動AI影像追蹤於自動單細胞移動和親緣鑑定:AI共作研究分享",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317335,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "【資安】關於本校因應全球重大 PHP 系統漏洞之緊急應變措施說明_1151030",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317286,r11.php?Lang=zh-tw",
           "date": null
@@ -217,16 +222,12 @@
           "title": "2026/10/21(三)｜ 歡迎高雄醫學大學醫化系李偉鵬副教授蒞臨演講｜主題：Bridging Chemistry and Medicine： A Great Opportunity AheadBridging Chemistry and Medicine： A Great Opportunity Ahead",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316563,r11.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "賀！本系崔博翔教授榮獲入選史丹佛大學發布之2026年「全球前2%頂尖科學家榜單」",
-          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316265,r11.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-10-30T16:31+08:00",
+      "fetched_at": "2026-11-02T11:07+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/406-1360-317335,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317286,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317185,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317044,r11.php?Lang=zh-tw",
