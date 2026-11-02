@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T11:07+08:00",
+  "updated_at": "2026-11-02T18:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -194,7 +194,7 @@
           "date": null
         },
         {
-          "title": "【招生】116學年度碩士班甄試入學複試名單＆須知 (更新時間：10/29)",
+          "title": "【招生】116學年度碩士班甄試入學逕行錄取及複試名單＆須知 (更新時間：10/29)",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317185,r11.php?Lang=zh-tw",
           "date": null
         },
@@ -224,7 +224,7 @@
           "date": null
         }
       ],
-      "fetched_at": "2026-11-02T11:07+08:00",
+      "fetched_at": "2026-11-02T18:07+08:00",
       "error": null,
       "seen": [
         "https://bmes.site.nthu.edu.tw/p/406-1360-317335,r11.php?Lang=zh-tw",
