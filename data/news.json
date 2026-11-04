@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T12:07+08:00",
+  "updated_at": "2026-11-04T14:37+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -441,6 +441,11 @@
       "list": "https://ece.nycu.edu.tw/latestevent/index.aspx?Parser=9,3,24",
       "items": [
         {
+          "title": "116學年度電機學院碩士班聯招甄試入學【正取生】報到注意事項",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2577",
+          "date": "2026-11-04"
+        },
+        {
           "title": "深化國際前瞻科技鏈結！本院與泰國朱拉隆功大學展開半導體、光電與永續科技深度合作洽談",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2576",
           "date": "2026-10-29"
@@ -474,16 +479,12 @@
           "title": "115學年度「財團法人新光鋼添澄慈善事業基金會菁英學生獎學金」即日起至2026/9/24(四)受理申請",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2569",
           "date": "2026-09-17"
-        },
-        {
-          "title": "116學年度陽明交大電機學院各系所碩士班甄試招生一覽表",
-          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2568",
-          "date": "2026-09-10"
         }
       ],
-      "fetched_at": "2026-10-29T17:49+08:00",
+      "fetched_at": "2026-11-04T14:37+08:00",
       "error": null,
       "seen": [
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2577",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2576",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2575",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2574",
