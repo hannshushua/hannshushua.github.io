@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T14:37+08:00",
+  "updated_at": "2026-11-04T15:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -441,6 +441,11 @@
       "list": "https://ece.nycu.edu.tw/latestevent/index.aspx?Parser=9,3,24",
       "items": [
         {
+          "title": "116學年度電機學院碩士班聯招甄試入學【備取生】報到注意事項",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2578",
+          "date": "2026-11-04"
+        },
+        {
           "title": "116學年度電機學院碩士班聯招甄試入學【正取生】報到注意事項",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2577",
           "date": "2026-11-04"
@@ -474,16 +479,12 @@
           "title": "10/02 國泰金控 X TIIA影響力投資校園巡迴論壇，歡迎師生踴躍參加",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2570",
           "date": "2026-09-23"
-        },
-        {
-          "title": "115學年度「財團法人新光鋼添澄慈善事業基金會菁英學生獎學金」即日起至2026/9/24(四)受理申請",
-          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2569",
-          "date": "2026-09-17"
         }
       ],
-      "fetched_at": "2026-11-04T14:37+08:00",
+      "fetched_at": "2026-11-04T15:07+08:00",
       "error": null,
       "seen": [
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2578",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2577",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2576",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2575",
