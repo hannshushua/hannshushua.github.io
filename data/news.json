@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T15:07+08:00",
+  "updated_at": "2026-11-04T16:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -184,6 +184,11 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "【招生】116學年度碩士班甄試入學複試時間表(115.11.4公告)",
+          "url": "https://bmes.site.nthu.edu.tw/p/450-1360-317563,c0.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "【招生】116學年度碩士班入學考試招生簡章公告",
           "url": "https://bmes.site.nthu.edu.tw/p/450-1360-317523,c0.php?Lang=zh-tw",
           "date": null
@@ -217,16 +222,12 @@
           "title": "2026/10/28(三)｜ 歡迎邦睿生技股份有限公司洪偉桓業務協理蒞臨演講｜主題：從醫工到世界： 一位工程師走向國際市場的職涯選擇",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316904,r11.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "【寒假營隊】2027清華醫工營 開放報名啦！報名期限｜即日起～115年12月21日止",
-          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316723,r11.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-11-04T12:07+08:00",
+      "fetched_at": "2026-11-04T16:07+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/450-1360-317563,c0.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/450-1360-317523,c0.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317335,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317286,r11.php?Lang=zh-tw",
@@ -441,6 +442,11 @@
       "list": "https://ece.nycu.edu.tw/latestevent/index.aspx?Parser=9,3,24",
       "items": [
         {
+          "title": "116學年入學【電機聯招】可指導教授名單（隨時更新）",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2579",
+          "date": "2026-11-04"
+        },
+        {
           "title": "116學年度電機學院碩士班聯招甄試入學【備取生】報到注意事項",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2578",
           "date": "2026-11-04"
@@ -474,16 +480,12 @@
           "title": "賀!本院吳炳飛終身講座教授獲第三十三屆東元獎－科技類獎",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2571",
           "date": "2026-10-06"
-        },
-        {
-          "title": "10/02 國泰金控 X TIIA影響力投資校園巡迴論壇，歡迎師生踴躍參加",
-          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2570",
-          "date": "2026-09-23"
         }
       ],
-      "fetched_at": "2026-11-04T15:07+08:00",
+      "fetched_at": "2026-11-04T16:07+08:00",
       "error": null,
       "seen": [
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2579",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2578",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2577",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2576",
@@ -507,6 +509,11 @@
       "home": "https://www.cs.nycu.edu.tw/",
       "list": "https://www.cs.nycu.edu.tw/announcements/graduate",
       "items": [
+        {
+          "title": "116學年度碩士班甄試入學報到注意事項(含榜單連結)",
+          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14423",
+          "date": "2026-11-04"
+        },
         {
           "title": "國立陽明交通大學116學年度資訊科學與工程研究所碩士班丙丁戊組甄試入學招生初試合格名單及複試須知、時間表",
           "url": "https://www.cs.nycu.edu.tw/announcements/detail/14402",
@@ -541,16 +548,12 @@
           "title": "國立陽明交通大學資訊學院116學年度碩士班與博士班甄試招生說明會之簡報",
           "url": "https://www.cs.nycu.edu.tw/announcements/detail/14326",
           "date": "2026-09-17"
-        },
-        {
-          "title": "【博士班招生】國立陽明交通大學116學年度「博士班甄試入學」招生公告及招生簡章[報名截止115/10/07(三)17:00 止]",
-          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14310",
-          "date": "2026-09-10"
         }
       ],
-      "fetched_at": "2026-10-27T19:07+08:00",
+      "fetched_at": "2026-11-04T16:07+08:00",
       "error": null,
       "seen": [
+        "https://www.cs.nycu.edu.tw/announcements/detail/14423",
         "https://www.cs.nycu.edu.tw/announcements/detail/14402",
         "https://www.cs.nycu.edu.tw/announcements/detail/14389",
         "https://www.cs.nycu.edu.tw/announcements/detail/14360",
