@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T18:07+08:00",
+  "updated_at": "2026-11-04T12:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -184,6 +184,11 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "【招生】116學年度碩士班入學考試招生簡章公告",
+          "url": "https://bmes.site.nthu.edu.tw/p/450-1360-317523,c0.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "2026/11/04(三)｜ 歡迎長庚大學醫工系蔡協孚助理教授蒞臨演講｜主題：整合微流體生醫晶片平台和自動AI影像追蹤於自動單細胞移動和親緣鑑定:AI共作研究分享",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317335,r11.php?Lang=zh-tw",
           "date": null
@@ -217,16 +222,12 @@
           "title": "【寒假營隊】2027清華醫工營 開放報名啦！報名期限｜即日起～115年12月21日止",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316723,r11.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "2026/10/21(三)｜ 歡迎高雄醫學大學醫化系李偉鵬副教授蒞臨演講｜主題：Bridging Chemistry and Medicine： A Great Opportunity AheadBridging Chemistry and Medicine： A Great Opportunity Ahead",
-          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316563,r11.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-11-02T18:07+08:00",
+      "fetched_at": "2026-11-04T12:07+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/450-1360-317523,c0.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317335,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317286,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317185,r11.php?Lang=zh-tw",
