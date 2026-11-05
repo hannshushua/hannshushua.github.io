@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T21:07+08:00",
+  "updated_at": "2026-11-05T10:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -73,6 +73,11 @@
       "list": "https://ibe.nycu.edu.tw/ibe/ch/app/news/list?module=headnews&id=6262",
       "items": [
         {
+          "title": "116學年度醫電所甄試入學榜單及注意事項",
+          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=7011bee2-0c29-4853-b668-d00def68b27d",
+          "date": "2026-11-05"
+        },
+        {
           "title": "【招生公告】116學年度碩士班甄試口試時間調整-115年10月28日(三)",
           "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c13b732d-ee63-4c3c-9236-81b1a2286fa1",
           "date": "2026-10-27"
@@ -106,16 +111,12 @@
           "title": "115學年度碩士班考試入學備取作業(已滿)",
           "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=cb4182ae-a959-4d59-8492-8b29d50bf211",
           "date": "2026-04-28"
-        },
-        {
-          "title": "115學年度碩士班考試入學第3階段備取生名單及報到注意事項",
-          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=1fecd83e-ab86-463b-96b6-dc08aa20b547",
-          "date": "2026-04-23"
         }
       ],
-      "fetched_at": "2026-10-27T16:07+08:00",
+      "fetched_at": "2026-11-05T10:07+08:00",
       "error": null,
       "seen": [
+        "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=7011bee2-0c29-4853-b668-d00def68b27d",
         "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c13b732d-ee63-4c3c-9236-81b1a2286fa1",
         "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c68b3c6a-8856-45e8-b3b7-93af25bbebdf",
         "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=73e359e1-ebf6-4436-82de-a02f7aa0b4b4",
@@ -510,6 +511,11 @@
       "list": "https://www.cs.nycu.edu.tw/announcements/graduate",
       "items": [
         {
+          "title": "【博士班】116學年度博士班甄試入學「資訊科學與工程研究所博士班」報到注意事項",
+          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14424",
+          "date": "2026-11-04"
+        },
+        {
           "title": "116學年度碩士班甄試入學報到注意事項(含榜單連結)",
           "url": "https://www.cs.nycu.edu.tw/announcements/detail/14423",
           "date": "2026-11-04"
@@ -543,16 +549,12 @@
           "title": "「國際扶輪3521/3522地區2026-27年度生命橋樑助學計畫」獎學金",
           "url": "https://www.cs.nycu.edu.tw/announcements/detail/14332",
           "date": "2026-09-21"
-        },
-        {
-          "title": "國立陽明交通大學資訊學院116學年度碩士班與博士班甄試招生說明會之簡報",
-          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14326",
-          "date": "2026-09-17"
         }
       ],
-      "fetched_at": "2026-11-04T16:07+08:00",
+      "fetched_at": "2026-11-05T10:07+08:00",
       "error": null,
       "seen": [
+        "https://www.cs.nycu.edu.tw/announcements/detail/14424",
         "https://www.cs.nycu.edu.tw/announcements/detail/14423",
         "https://www.cs.nycu.edu.tw/announcements/detail/14402",
         "https://www.cs.nycu.edu.tw/announcements/detail/14389",
