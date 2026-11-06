@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T18:07+08:00",
+  "updated_at": "2026-11-06T17:48+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -185,6 +185,11 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "賀！王廷瑋教授指導吳若茵、林家慶與紡織所合作，榮獲「2026半導體創新計畫優選第一名暨奇景光電節能創新獎」",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317706,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "【招生】116學年度碩士班甄試入學複試時間表(115.11.4/20:40更新公告)",
           "url": "https://bmes.site.nthu.edu.tw/p/450-1360-317563,c0.php?Lang=zh-tw",
           "date": null
@@ -218,16 +223,12 @@
           "title": "【環安衛】115/10/27~116/11/28 第二高壓站供電系統更新及改壓工程施工公告",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316992,r11.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "2026/10/28(三)｜ 歡迎邦睿生技股份有限公司洪偉桓業務協理蒞臨演講｜主題：從醫工到世界： 一位工程師走向國際市場的職涯選擇",
-          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-316904,r11.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-11-04T21:07+08:00",
+      "fetched_at": "2026-11-06T17:48+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/406-1360-317706,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/450-1360-317563,c0.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/450-1360-317523,c0.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317335,r11.php?Lang=zh-tw",
@@ -444,6 +445,16 @@
       "list": "https://ece.nycu.edu.tw/latestevent/index.aspx?Parser=9,3,24",
       "items": [
         {
+          "title": "中國電機工程學會115年度會士 李大嵩教授",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2584",
+          "date": "2026-11-06"
+        },
+        {
+          "title": "第70屆學術獎獲獎 - 王蒞君院長榮獲殊榮",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2582",
+          "date": "2026-11-06"
+        },
+        {
           "title": "賀本院傑出校友潘健成董事長榮獲教育部第 5 屆「全球留臺傑出校友獎」 慷慨捐助本院教職員健檢專案",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2580",
           "date": "2026-11-05"
@@ -472,21 +483,13 @@
           "title": "賀！本院7位教師入選2026年ScholarGPS 高排名學者榜單",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2575",
           "date": "2026-10-28"
-        },
-        {
-          "title": "賀！本院49位教師入選全球前2%頂尖科學家榜單",
-          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2574",
-          "date": "2026-10-28"
-        },
-        {
-          "title": "【國際論壇】 11/03 IEEE 2026候任主席 ✕ 群聯電子創辦人潘健成學長演講",
-          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2572",
-          "date": "2026-10-20"
         }
       ],
-      "fetched_at": "2026-11-05T17:37+08:00",
+      "fetched_at": "2026-11-06T17:48+08:00",
       "error": null,
       "seen": [
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2584",
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2582",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2580",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2579",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2578",
