@@ -167,7 +167,7 @@
         }
       ],
       "fetched_at": "2026-10-22T19:37+08:00",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='nycubme.nycu.edu.tw', port=443): Max retries exceeded with url: /archives/category/uncategorized (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote en",
       "seen": [
         "https://nycubme.nycu.edu.tw/archives/5135",
         "https://nycubme.nycu.edu.tw/archives/5128",
