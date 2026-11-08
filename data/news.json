@@ -50,7 +50,7 @@
         }
       ],
       "fetched_at": "2026-11-02T02:31+08:00",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.bime.ntu.edu.tw', port=443): Max retries exceeded with url: /News_n_64602_sms_63988.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.bime.ntu.edu.tw', port=",
       "seen": [
         "https://www.bime.ntu.edu.tw/News_Content_n_64602_s_267259.html",
         "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_69460_state_F5D336F102ACBC68_s_267186_sms_68440.html",
@@ -226,7 +226,7 @@
         }
       ],
       "fetched_at": "2026-11-08T17:37+08:00",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='bmes.site.nthu.edu.tw', port=443): Max retries exceeded with url: /p/403-1360-11-1.php?Lang=zh-tw (Caused by NewConnectionError(\"HTTPSConnection(host='bmes.site.nthu.edu.tw',",
       "seen": [
         "https://bmes.site.nthu.edu.tw/p/406-1360-317787,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317706,r11.php?Lang=zh-tw",
