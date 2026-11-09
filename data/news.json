@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T17:37+08:00",
+  "updated_at": "2026-11-09T13:37+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -383,6 +383,11 @@
       "list": "https://cs.ccu.edu.tw/p/403-1094-547-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "116學年度資工系碩士班甄試口試時間表",
+          "url": "https://cs.ccu.edu.tw/p/450-1094-97449,c0.php?Lang=zh-tw",
+          "date": "2026-11-09"
+        },
+        {
           "title": "116學年度資工系碩士班甄試，校園平面配置圖及資工系平面圖",
           "url": "https://cs.ccu.edu.tw/p/406-1094-97302,r547.php?Lang=zh-tw",
           "date": "2026-11-05"
@@ -416,16 +421,12 @@
           "title": "115碩考錄取生意願登記及報到須知.pdf",
           "url": "https://cs.ccu.edu.tw/p/450-1094-87217,c0.php?Lang=zh-tw",
           "date": "2026-03-27"
-        },
-        {
-          "title": "115學年度中正資工碩士班甄試口試時間.pdf",
-          "url": "https://cs.ccu.edu.tw/p/450-1094-81575,c0.php?Lang=zh-tw",
-          "date": "2025-11-11"
         }
       ],
-      "fetched_at": "2026-11-05T18:07+08:00",
+      "fetched_at": "2026-11-09T13:37+08:00",
       "error": null,
       "seen": [
+        "https://cs.ccu.edu.tw/p/450-1094-97449,c0.php?Lang=zh-tw",
         "https://cs.ccu.edu.tw/p/406-1094-97302,r547.php?Lang=zh-tw",
         "https://cs.ccu.edu.tw/p/450-1094-96896,c0.php?Lang=zh-tw",
         "https://cs.ccu.edu.tw/p/450-1094-96614,c0.php?Lang=zh-tw",
