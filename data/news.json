@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T13:37+08:00",
+  "updated_at": "2026-11-10T17:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -185,6 +185,11 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "【招生】115學年度轉學生甄試招生公告(含簡章下載)",
+          "url": "https://bmes.site.nthu.edu.tw/p/450-1360-317970,c0.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "【施工公告/Notice】11/9－11/30 醫環館頂樓東、西側地板及2樓西側戶外花檯排水溝防漏水工程",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317787,r11.php?Lang=zh-tw",
           "date": null
@@ -218,16 +223,12 @@
           "title": "【招生】116學年度碩士班甄試入學逕行錄取及複試名單＆須知 (更新時間：10/29)",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317185,r11.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "【網路服務公告】醫環館11/7(六)上午8:00-9:00防火牆韌體更新暨短暫網路中斷通知 / 【Network Service Notice】Firewall Firmware Upgrade and Temporary Network Interruption at the BMES Building",
-          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317044,r11.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-11-08T17:37+08:00",
+      "fetched_at": "2026-11-10T17:07+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/450-1360-317970,c0.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317787,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317706,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/450-1360-317563,c0.php?Lang=zh-tw",
