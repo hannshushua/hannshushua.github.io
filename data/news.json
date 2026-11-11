@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T19:07+08:00",
+  "updated_at": "2026-11-12T06:14+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -449,11 +449,6 @@
       "list": "https://ece.nycu.edu.tw/latestevent/index.aspx?Parser=9,3,24",
       "items": [
         {
-          "title": "國立陽明交通大學產學講座 信驊科技 林鴻明董事長 聘任典禮115.11.11",
-          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2585",
-          "date": "2026-11-10"
-        },
-        {
           "title": "中國電機工程學會115年度會士 李大嵩教授",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2584",
           "date": "2026-11-06"
@@ -487,9 +482,14 @@
           "title": "深化國際前瞻科技鏈結！本院與泰國朱拉隆功大學展開半導體、光電與永續科技深度合作洽談",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2576",
           "date": "2026-10-29"
+        },
+        {
+          "title": "賀！本院7位教師入選2026年ScholarGPS 高排名學者榜單",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2575",
+          "date": "2026-10-28"
         }
       ],
-      "fetched_at": "2026-11-10T13:37+08:00",
+      "fetched_at": "2026-11-12T06:14+08:00",
       "error": null,
       "seen": [
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2585",
