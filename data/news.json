@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T17:07+08:00",
+  "updated_at": "2026-11-11T19:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -321,6 +321,11 @@
       "list": "https://imst.nsysu.edu.tw/p/403-1333-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "【公告】115學年度第2學期住、退宿申請及寒假住宿注意事項",
+          "url": "https://imst.nsysu.edu.tw/p/406-1333-386066,r11.php?Lang=zh-tw",
+          "date": "2026-11-11"
+        },
+        {
           "title": "【公告】2027-2028其他國家與地區出國交換甄選",
           "url": "https://imst.nsysu.edu.tw/p/406-1333-385154,r11.php?Lang=zh-tw",
           "date": "2026-10-28"
@@ -354,16 +359,12 @@
           "title": "【公告】115學年度第一學期學生就學貸款注意事項",
           "url": "https://imst.nsysu.edu.tw/p/406-1333-380923,r11.php?Lang=zh-tw",
           "date": "2026-08-21"
-        },
-        {
-          "title": "【公告】2027-2028赴日本學生出國交換計畫",
-          "url": "https://imst.nsysu.edu.tw/p/406-1333-379977,r11.php?Lang=zh-tw",
-          "date": "2026-07-31"
         }
       ],
-      "fetched_at": "2026-10-28T23:37+08:00",
+      "fetched_at": "2026-11-11T19:07+08:00",
       "error": null,
       "seen": [
+        "https://imst.nsysu.edu.tw/p/406-1333-386066,r11.php?Lang=zh-tw",
         "https://imst.nsysu.edu.tw/p/406-1333-385154,r11.php?Lang=zh-tw",
         "https://imst.nsysu.edu.tw/static/file/333/1333/img/1754/762891387.pdf",
         "https://imst.nsysu.edu.tw/static/file/333/1333/img/914801575.pdf",
