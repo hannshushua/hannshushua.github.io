@@ -114,7 +114,7 @@
         }
       ],
       "fetched_at": "2026-11-05T10:07+08:00",
-      "error": "HTTPSConnectionPool(host='ibe.nycu.edu.tw', port=443): Max retries exceeded with url: /ibe/ch/app/news/list?module=headnews&id=6262 (Caused by ResponseError('too many 503 error responses'))",
+      "error": null,
       "seen": [
         "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=7011bee2-0c29-4853-b668-d00def68b27d",
         "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c13b732d-ee63-4c3c-9236-81b1a2286fa1",
