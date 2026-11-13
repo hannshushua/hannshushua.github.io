@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T13:37+08:00",
+  "updated_at": "2026-11-13T19:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -185,6 +185,11 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "116學年入學碩士班「醫環系研究生聯合實驗室說明會」，歡迎正、備取生報名參加！",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-318375,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "116學年度碩士甄試第二次放榜錄取名單",
           "url": "https://bmes.site.nthu.edu.tw/p/450-1360-318324,c0.php?Lang=zh-tw",
           "date": null
@@ -218,16 +223,12 @@
           "title": "2026/11/04(三)｜ 歡迎長庚大學醫工系蔡協孚助理教授蒞臨演講｜主題：整合微流體生醫晶片平台和自動AI影像追蹤於自動單細胞移動和親緣鑑定:AI共作研究分享",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317335,r11.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "【資安】關於本校因應全球重大 PHP 系統漏洞之緊急應變措施說明_1151030",
-          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317286,r11.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-11-13T11:07+08:00",
+      "fetched_at": "2026-11-13T19:07+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/406-1360-318375,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/450-1360-318324,c0.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/450-1360-317970,c0.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-317787,r11.php?Lang=zh-tw",
