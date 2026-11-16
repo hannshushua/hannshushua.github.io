@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T08:37+08:00",
+  "updated_at": "2026-11-16T08:57+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -190,12 +190,12 @@
           "date": null
         },
         {
-          "title": "116學年入學碩士班「醫環系研究生聯合實驗室說明會」，歡迎正、備取生報名參加！",
+          "title": "【招生】116學年入學碩士班「醫環系研究生聯合實驗室說明會」，歡迎正、備取生報名參加！",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-318375,r11.php?Lang=zh-tw",
           "date": null
         },
         {
-          "title": "116學年度碩士甄試第二次放榜錄取名單",
+          "title": "【招生】116學年度碩士甄試第二次放榜錄取名單",
           "url": "https://bmes.site.nthu.edu.tw/p/450-1360-318324,c0.php?Lang=zh-tw",
           "date": null
         },
@@ -225,7 +225,7 @@
           "date": null
         }
       ],
-      "fetched_at": "2026-11-16T08:37+08:00",
+      "fetched_at": "2026-11-16T08:57+08:00",
       "error": null,
       "seen": [
         "https://bmes.site.nthu.edu.tw/p/406-1360-318397,r11.php?Lang=zh-tw",
