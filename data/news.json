@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T17:07+08:00",
+  "updated_at": "2026-11-18T09:50+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -453,6 +453,11 @@
       "list": "https://ece.nycu.edu.tw/latestevent/index.aspx?Parser=9,3,24",
       "items": [
         {
+          "title": "【全新宣傳影片】耀眼電機，跨域前行!",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2588",
+          "date": "2026-11-18"
+        },
+        {
           "title": "115.11.18 聯詠科技講座 Kickoff Meeting",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2587",
           "date": "2026-11-17"
@@ -486,16 +491,12 @@
           "title": "116學年度電機學院碩士班聯招甄試入學【正取生】報到注意事項",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2577",
           "date": "2026-11-04"
-        },
-        {
-          "title": "深化國際前瞻科技鏈結！本院與泰國朱拉隆功大學展開半導體、光電與永續科技深度合作洽談",
-          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2576",
-          "date": "2026-10-29"
         }
       ],
-      "fetched_at": "2026-11-17T14:07+08:00",
+      "fetched_at": "2026-11-18T09:50+08:00",
       "error": null,
       "seen": [
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2588",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2587",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2585",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2584",
