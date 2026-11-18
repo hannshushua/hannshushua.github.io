@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T16:29+08:00",
+  "updated_at": "2026-11-19T00:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -8,6 +8,11 @@
       "home": "https://www.bime.ntu.edu.tw/",
       "list": "https://www.bime.ntu.edu.tw/News_n_64602_sms_63988.html",
       "items": [
+        {
+          "title": "11、12月份原創201空間開放時段",
+          "url": "https://www.bime.ntu.edu.tw/News_Content_n_64602_s_267705.html",
+          "date": "2026-11-18"
+        },
         {
           "title": "【徵才說明會】臺大生機系教師徵才線上說明會",
           "url": "https://www.bime.ntu.edu.tw/News_Content_n_64602_s_267259.html",
@@ -42,16 +47,12 @@
           "title": "【獎學金公告】115學年度教育部博士生獎學金第2梯次申請",
           "url": "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266481_sms_63991.html",
           "date": "2026-10-02"
-        },
-        {
-          "title": "【獎學金公告】2026臺大校長獎開始申請",
-          "url": "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_64588_state_F5D336F102ACBC68_s_266324_sms_63991.html",
-          "date": "2026-09-23"
         }
       ],
-      "fetched_at": "2026-11-02T02:31+08:00",
+      "fetched_at": "2026-11-19T00:07+08:00",
       "error": null,
       "seen": [
+        "https://www.bime.ntu.edu.tw/News_Content_n_64602_s_267705.html",
         "https://www.bime.ntu.edu.tw/News_Content_n_64602_s_267259.html",
         "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_69460_state_F5D336F102ACBC68_s_267186_sms_68440.html",
         "https://www.bime.ntu.edu.tw/News_Content_Create_1_n_69459_state_F5D336F102ACBC68_s_267151_sms_68439.html",
