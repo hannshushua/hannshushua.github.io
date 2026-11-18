@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T09:50+08:00",
+  "updated_at": "2026-11-18T16:29+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -185,8 +185,18 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "大學部學生提前畢業之學業成績優異標準修正(115.11.13公告)",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-318597,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "2026/11/18(三)｜ 歡迎普瑞默生物科技股份有限公司黃雅瑤董事長兼執行長蒞臨演講｜主題：關於放射藥物，我說的其實是……",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-318397,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
+          "title": "【招生】116學年入學碩士班「醫環系研究生聯合實驗室說明會」，歡迎正、備取生報名參加！",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-318375,r11.php?Lang=zh-tw",
           "date": null
         },
         {
@@ -213,21 +223,12 @@
           "title": "【招生】116學年度碩士班甄試入學複試時間表(115.11.4/20:40更新公告)",
           "url": "https://bmes.site.nthu.edu.tw/p/450-1360-317563,c0.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "【招生】116學年度碩士班入學考試招生簡章公告",
-          "url": "https://bmes.site.nthu.edu.tw/p/450-1360-317523,c0.php?Lang=zh-tw",
-          "date": null
-        },
-        {
-          "title": "2026/11/04(三)｜ 歡迎長庚大學醫工系蔡協孚助理教授蒞臨演講｜主題：整合微流體生醫晶片平台和自動AI影像追蹤於自動單細胞移動和親緣鑑定:AI共作研究分享",
-          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317335,r11.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-11-17T12:07+08:00",
+      "fetched_at": "2026-11-18T16:29+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/406-1360-318597,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-318397,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-318375,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/450-1360-318324,c0.php?Lang=zh-tw",
@@ -527,6 +528,11 @@
       "list": "https://www.cs.nycu.edu.tw/announcements/graduate",
       "items": [
         {
+          "title": "116學年度陽明交通大學碩士班甄試入學 資訊工程學系各所組第1階段備取生名單及報到注意事項",
+          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14459",
+          "date": "2026-11-18"
+        },
+        {
           "title": "【博士班】116學年度博士班甄試入學「資訊科學與工程研究所博士班」報到注意事項",
           "url": "https://www.cs.nycu.edu.tw/announcements/detail/14424",
           "date": "2026-11-04"
@@ -560,16 +566,12 @@
           "title": "【博士班】115學年度第一學期博士班資格考抵免(新生以成績單抵免)審核結果公告",
           "url": "https://www.cs.nycu.edu.tw/announcements/detail/14339",
           "date": "2026-09-21"
-        },
-        {
-          "title": "「國際扶輪3521/3522地區2026-27年度生命橋樑助學計畫」獎學金",
-          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14332",
-          "date": "2026-09-21"
         }
       ],
-      "fetched_at": "2026-11-17T17:07+08:00",
+      "fetched_at": "2026-11-18T16:29+08:00",
       "error": null,
       "seen": [
+        "https://www.cs.nycu.edu.tw/announcements/detail/14459",
         "https://www.cs.nycu.edu.tw/announcements/detail/14424",
         "https://www.cs.nycu.edu.tw/announcements/detail/14423",
         "https://www.cs.nycu.edu.tw/announcements/detail/14402",
