@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T14:37+08:00",
+  "updated_at": "2026-11-19T15:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -74,6 +74,11 @@
       "list": "https://ibe.nycu.edu.tw/ibe/ch/app/news/list?module=headnews&id=6262",
       "items": [
         {
+          "title": "116學年度碩士班甄試入學備取公告",
+          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c1f651ea-095d-4be2-a563-d0c3e8ee4169",
+          "date": "2026-11-19"
+        },
+        {
           "title": "116學年度醫電所甄試入學榜單及注意事項",
           "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=7011bee2-0c29-4853-b668-d00def68b27d",
           "date": "2026-11-05"
@@ -107,16 +112,12 @@
           "title": "115A舊生註冊須知",
           "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=71c59bc5-d78f-4e78-bb83-b7d03cd252a4",
           "date": "2026-06-02"
-        },
-        {
-          "title": "115學年度碩士班考試入學備取作業(已滿)",
-          "url": "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=cb4182ae-a959-4d59-8492-8b29d50bf211",
-          "date": "2026-04-28"
         }
       ],
-      "fetched_at": "2026-11-05T10:07+08:00",
+      "fetched_at": "2026-11-19T15:07+08:00",
       "error": null,
       "seen": [
+        "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c1f651ea-095d-4be2-a563-d0c3e8ee4169",
         "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=7011bee2-0c29-4853-b668-d00def68b27d",
         "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c13b732d-ee63-4c3c-9236-81b1a2286fa1",
         "https://ibe.nycu.edu.tw/ibe/ch/app/news/view?module=headnews&id=6262&serno=c68b3c6a-8856-45e8-b3b7-93af25bbebdf",
