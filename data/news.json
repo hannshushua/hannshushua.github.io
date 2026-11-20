@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T15:07+08:00",
+  "updated_at": "2026-11-20T15:37+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -532,6 +532,11 @@
       "list": "https://www.cs.nycu.edu.tw/announcements/graduate",
       "items": [
         {
+          "title": "116學年度陽明交通大學碩士班甄試入學 資訊工程學系各所組第2階段備取生名單及報到注意事項",
+          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14464",
+          "date": "2026-11-20"
+        },
+        {
           "title": "116學年度陽明交通大學碩士班甄試入學 資訊工程學系各所組第1階段備取生名單及報到注意事項",
           "url": "https://www.cs.nycu.edu.tw/announcements/detail/14459",
           "date": "2026-11-18"
@@ -565,16 +570,12 @@
           "title": "【博士班】116學年度第1學期第一梯次逕修讀博士學位申請公告(申請自即日起至115年10月 7 日(三)下午5:00止)",
           "url": "https://www.cs.nycu.edu.tw/announcements/detail/14345",
           "date": "2026-09-22"
-        },
-        {
-          "title": "【博士班】115學年度第一學期博士班資格考抵免(新生以成績單抵免)審核結果公告",
-          "url": "https://www.cs.nycu.edu.tw/announcements/detail/14339",
-          "date": "2026-09-21"
         }
       ],
-      "fetched_at": "2026-11-18T16:29+08:00",
+      "fetched_at": "2026-11-20T15:37+08:00",
       "error": null,
       "seen": [
+        "https://www.cs.nycu.edu.tw/announcements/detail/14464",
         "https://www.cs.nycu.edu.tw/announcements/detail/14459",
         "https://www.cs.nycu.edu.tw/announcements/detail/14424",
         "https://www.cs.nycu.edu.tw/announcements/detail/14423",
