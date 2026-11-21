@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T15:37+08:00",
+  "updated_at": "2026-11-21T12:15+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -187,6 +187,11 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "2026/11/25(三)｜ 歡迎工研院生醫所生醫法規策略部特聘研究林佳妏副教授蒞臨演講｜主題：醫療器材研發流程與設計管控",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-318801,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "大學部學生提前畢業之學業成績優異標準修正(115.11.13公告)",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-318597,r11.php?Lang=zh-tw",
           "date": null
@@ -220,16 +225,12 @@
           "title": "賀！王廷瑋教授指導吳若茵、林家慶與紡織所合作，榮獲「2026半導體創新計畫優選第一名暨奇景光電節能創新獎」",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317706,r11.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "【招生】116學年度碩士班甄試入學複試時間表(115.11.4/20:40更新公告)",
-          "url": "https://bmes.site.nthu.edu.tw/p/450-1360-317563,c0.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-11-18T16:29+08:00",
+      "fetched_at": "2026-11-21T12:15+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/406-1360-318801,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-318597,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-318397,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-318375,r11.php?Lang=zh-tw",
