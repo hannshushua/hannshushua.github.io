@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T12:07+08:00",
+  "updated_at": "2026-11-24T10:37+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -187,6 +187,11 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "賀！本系王廷瑋教授指導碩士生蘇冠霖榮獲2026年「中國電機工程學會－青年論文獎」",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-318881,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "【招生】116學年入學碩士班「醫環系研究生聯合實驗室說明會」影片連結｜115.11.23公告",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-318815,r11.php?Lang=zh-tw",
           "date": null
@@ -220,16 +225,12 @@
           "title": "【施工公告/Notice】11/9－11/30 醫環館頂樓東、西側地板及2樓西側戶外花檯排水溝防漏水工程",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317787,r11.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "賀！王廷瑋教授指導吳若茵、林家慶與紡織所合作，榮獲「2026半導體創新計畫優選第一名暨奇景光電節能創新獎」",
-          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317706,r11.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-11-23T12:07+08:00",
+      "fetched_at": "2026-11-24T10:37+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/406-1360-318881,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-318815,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-318801,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-318597,r11.php?Lang=zh-tw",
