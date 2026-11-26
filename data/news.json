@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T10:07+08:00",
+  "updated_at": "2026-11-26T11:37+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -332,6 +332,11 @@
       "list": "https://imst.nsysu.edu.tw/p/403-1333-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "【公告】115學年第一學期課程線上教學意見調查事宜",
+          "url": "https://imst.nsysu.edu.tw/p/406-1333-386890,r11.php?Lang=zh-tw",
+          "date": "2026-11-26"
+        },
+        {
           "title": "【公告】115學年度第2學期住、退宿申請及寒假住宿注意事項",
           "url": "https://imst.nsysu.edu.tw/p/406-1333-386066,r11.php?Lang=zh-tw",
           "date": "2026-11-11"
@@ -365,16 +370,12 @@
           "title": "【公告】115學年度第一學期兵役緩徵、儘後召集與延畢延長、離校消滅等申請相關事宜",
           "url": "https://imst.nsysu.edu.tw/p/406-1333-380924,r11.php?Lang=zh-tw",
           "date": "2026-08-21"
-        },
-        {
-          "title": "【公告】115學年度第一學期學生就學貸款注意事項",
-          "url": "https://imst.nsysu.edu.tw/p/406-1333-380923,r11.php?Lang=zh-tw",
-          "date": "2026-08-21"
         }
       ],
-      "fetched_at": "2026-11-11T19:07+08:00",
+      "fetched_at": "2026-11-26T11:37+08:00",
       "error": null,
       "seen": [
+        "https://imst.nsysu.edu.tw/p/406-1333-386890,r11.php?Lang=zh-tw",
         "https://imst.nsysu.edu.tw/p/406-1333-386066,r11.php?Lang=zh-tw",
         "https://imst.nsysu.edu.tw/p/406-1333-385154,r11.php?Lang=zh-tw",
         "https://imst.nsysu.edu.tw/static/file/333/1333/img/1754/762891387.pdf",
