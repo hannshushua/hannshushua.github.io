@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T15:07+08:00",
+  "updated_at": "2026-11-27T15:37+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -187,6 +187,11 @@
       "list": "https://bmes.site.nthu.edu.tw/p/403-1360-11-1.php?Lang=zh-tw",
       "items": [
         {
+          "title": "【公告】2027秋清華-加州大學爾灣分校UC, Irvine 3+2工程計畫申請公告，系截止收件:115/12/11 17:00前",
+          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-319232,r11.php?Lang=zh-tw",
+          "date": null
+        },
+        {
           "title": "賀！本系王廷瑋教授指導碩士生蘇冠霖榮獲2026年「中國電機工程學會－青年論文獎」",
           "url": "https://bmes.site.nthu.edu.tw/p/406-1360-318881,r11.php?Lang=zh-tw",
           "date": null
@@ -220,16 +225,12 @@
           "title": "【招生】115學年度轉學生甄試招生公告(含簡章下載)",
           "url": "https://bmes.site.nthu.edu.tw/p/450-1360-317970,c0.php?Lang=zh-tw",
           "date": null
-        },
-        {
-          "title": "【施工公告/Notice】11/9－11/30 醫環館頂樓東、西側地板及2樓西側戶外花檯排水溝防漏水工程",
-          "url": "https://bmes.site.nthu.edu.tw/p/406-1360-317787,r11.php?Lang=zh-tw",
-          "date": null
         }
       ],
-      "fetched_at": "2026-11-24T10:37+08:00",
+      "fetched_at": "2026-11-27T15:37+08:00",
       "error": null,
       "seen": [
+        "https://bmes.site.nthu.edu.tw/p/406-1360-319232,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-318881,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-318815,r11.php?Lang=zh-tw",
         "https://bmes.site.nthu.edu.tw/p/406-1360-318801,r11.php?Lang=zh-tw",
