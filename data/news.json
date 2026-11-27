@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T15:37+08:00",
+  "updated_at": "2026-11-27T19:07+08:00",
   "schools": [
     {
       "id": "ntu-bime",
@@ -462,6 +462,11 @@
       "list": "https://ece.nycu.edu.tw/latestevent/index.aspx?Parser=9,3,24",
       "items": [
         {
+          "title": "116學年度【電機學院碩士班聯招】甄試招生第三次備取遞補錄取名單",
+          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2593",
+          "date": "2026-11-27"
+        },
+        {
           "title": "116學年度【電機學院碩士班聯招】甄試招生第二次備取遞補錄取名單",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2590",
           "date": "2026-11-24"
@@ -495,16 +500,12 @@
           "title": "賀本院傑出校友潘健成董事長榮獲教育部第 5 屆「全球留臺傑出校友獎」 慷慨捐助本院教職員健檢專案",
           "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2580",
           "date": "2026-11-05"
-        },
-        {
-          "title": "116學年入學【電機聯招】可指導教授名單（隨時更新）",
-          "url": "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2579",
-          "date": "2026-11-04"
         }
       ],
-      "fetched_at": "2026-11-24T18:07+08:00",
+      "fetched_at": "2026-11-27T19:07+08:00",
       "error": null,
       "seen": [
+        "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2593",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2590",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2589",
         "https://ece.nycu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,2588",
